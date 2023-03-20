@@ -183,9 +183,9 @@ const Footer = () => {
             {/* <div className="bg-primary/1 py-1"> */}
             {/* <div className="container"> */}
                   <div className="mb-12 text-base font-medium text-body-color">
-                    <div class="row">CEO Manfred Erlwein</div>
-                    <div class="row">Commercial Register Nürnberg No. 29588</div>
-                    <div class="row">VAT DE229236568</div>
+                    <div className="row">CEO Manfred Erlwein</div>
+                    <div className="row">Commercial Register Nürnberg No. 29588</div>
+                    <div className="row">VAT DE229236568</div>
                   </div> 
                   {/* </div> */}
                 {/* </div> */}
