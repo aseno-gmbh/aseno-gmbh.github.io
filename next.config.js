@@ -17,6 +17,7 @@ const nextConfig = {
 //     loader: 'custom',
 //     loaderFile: './app/image.ts',
 //   },
+  images: { unoptimized: true },
   experimental: {
     appDir: true,
   },
