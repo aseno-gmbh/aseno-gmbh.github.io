@@ -1,11 +1,3 @@
-/** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   experimental: {
-//     appDir: true,
-//   },
-// };
-
-// module.exports = nextConfig;
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
 let assetPrefix = ''
@@ -19,26 +11,43 @@ if (isGithubActions) {
   basePath = `/${repo}`
 }
 
-module.exports = {
+const nextConfig = {
+  output: 'export',
+//   images: {
+//     loader: 'custom',
+//     loaderFile: './app/image.ts',
+//   },
+  experimental: {
+    appDir: true,
+  },
   assetPrefix: assetPrefix,
   basePath: basePath,
-  // experimental: {
-  //   appDir: true,
-  // },
-  output: 'export',
-  // exportPathMap: async function (
-  //   defaultPathMap,
-  //   { dev, dir, outDir, distDir, buildId }
-  // ) {
-  //   return {
-  //     '/': { page: '' },
-  //     '/about': { page: 'app/about' },
-  //     '/contact': { page: 'app/contact' },
-  //     '/privacy': { page: 'app/privacy' },
-  //     // '/p/hello-nextjs': { page: '/post', query: { title: 'hello-nextjs' } },
-  //     // '/p/learn-nextjs': { page: '/post', query: { title: 'learn-nextjs' } },
-  //     // '/p/deploy-nextjs': { page: '/post', query: { title: 'deploy-nextjs' } },
-  //   }
-  // },
+};
+
+module.exports = nextConfig
+
+// module.exports = {
+//     // Set the target to serverless so that Next.js generates a static site
+//     //target: 'serverless',
+
+//     experimental: {
+//         appDir: true,
+//     },
+//     // Define the environment variables for the application
+//     env: {
+//       API_BASE_URL: 'https://aseno.org/api'
+//     },
   
-}
+//     // Define the routes for which static pages should be generated
+//     // Here, we are generating pages for the home page and the blog page
+//     exportPathMap: async function() {
+//       const paths = {
+//         '/': { page: '/' },
+//         '/about': { page: '/about' }
+//       };
+  
+//       // Add more paths here as needed
+  
+//       return paths;
+//     }
+//   };
