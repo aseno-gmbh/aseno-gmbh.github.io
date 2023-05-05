@@ -169,11 +169,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/legal"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Refund Policy{" "}
+                      Legal Notice{" "}
                     </a>
                   </li>
 
