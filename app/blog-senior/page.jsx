@@ -1,7 +1,7 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
-import NewsLatterBox from "@/components/Contact/NewsLatterBox";
+// import SharePost from "@/components/Blog/SharePost";
+// import TagButton from "@/components/Blog/TagButton";
+// import NewsLatterBox from "@/components/Contact/NewsLatterBox";
 import Image from "next/image";
 
 const BlogSeniorPage = () => {
@@ -165,6 +165,23 @@ Familiar with software testing, and Agile/Scrum development methodology. Learn, 
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                   Unique career opportunity, possibility to learn, while earning. Chance to enhance technical expertise and gain new skills. Opportunity to work with an international team of highly motivated, friendly and professional people. Home office. Flexible time and a lot more!  
                   </p>
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  How to apply ? 
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Please, provide us (mail to sekretariat@domain_as_shown_in_your_browser) with some certificates regarding your education, degree e.g.:
+                  </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Last Certificate (Degree or similar)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Knowledge skills: Beginner basic Knowledge (your own projects, theoretical  knowledge),  Advanced - (at least 1-2 years prof. experience), Expert (3-5 years prof. experience)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Which is your IT area of interest?
+                    </li>
+                  </ul>
                   {/* <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Semper auctor neque vitae tempus quam pellentesque nec.
                     <span className="text-primary underline dark:text-white">
@@ -488,7 +505,7 @@ Familiar with software testing, and Agile/Scrum development methodology. Learn, 
                 </div>
               </div> */}
 
-              <NewsLatterBox />
+              {/* <NewsLatterBox /> */}
             </div>
           </div>
         </div>
