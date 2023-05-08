@@ -36,7 +36,7 @@ module.exports = nextConfig
 //     },
 //     // Define the environment variables for the application
 //     env: {
-//       API_BASE_URL: 'https://aseno.org/api'
+//       API_BASE_URL: 'https://aseno.de/api'
 //     },
   
 //     // Define the routes for which static pages should be generated
