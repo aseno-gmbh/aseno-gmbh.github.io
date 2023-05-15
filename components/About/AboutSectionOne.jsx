@@ -41,7 +41,7 @@ const AboutSectionOne = () => {
                     </p>
                     <List text="Step  2   -  Create a Concept" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    ASSENO creates a concept with the aim of providing an offer with a cost estimate.
+                    ASENO creates a concept with the aim of providing an offer with a cost estimate.
 Here we offer a day workshop to exactly understand the requirements of our customers.
 Based on the workshop, we create a concept with a business and technical focus. We offer solutions in sizes S, M, L and XL. The customer can start with S and later switch to L or XL.
 The result is a concept! with an existing schedule to complete the project. All costs are transparent and fixed.

@@ -18,7 +18,7 @@ const Hero = () => {
                 Use Data to Get a 360-Degree View of Your Business
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                ASENO is developing a next generation decision support platform. Our vision is to create a world in which people have affordable access to quality content while enjoying a pleasant, relevant user experience. We strongly believe in the "shared value" approach.
+                ASENO specializes in optimizing business processes and creating more value from customer data. We help clients reduce costs, increase efficiency, and improve user experience. Our vision is to create a world in which people have affordable access to quality content while enjoying a pleasant, relevant user experience. We strongly believe in the "shared value" approach.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
