@@ -10,7 +10,6 @@ export default function Healthcare() {
         <meta name="description" content="We create personalized user-friendly experiences to meet each patient’s unique health needs." />
       </Head>
       <HealthcareHero />
-      <Features />
       <Testimonials />
     </>
   );
