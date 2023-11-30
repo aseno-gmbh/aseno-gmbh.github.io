@@ -11,6 +11,12 @@ const menuData = [
     path: "/about",
     newTab: false,
   },
+  {
+    id: 3,
+    title: "Healthcare",
+    path: "/healthcare",
+    newTab: false,
+  },
   // {
   //   id: 33,
   //   title: "Blog",
@@ -18,13 +24,13 @@ const menuData = [
   //   newTab: false,
   // },
   {
-    id: 3,
+    id: 4,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Career",
     newTab: false,
     submenu: [
@@ -47,13 +53,13 @@ const menuData = [
       //   newTab: false,
       // },
       {
-        id: 44,
+        id: 54,
         title: "Senior SW Engineer",
         path: "/blog-senior",
         newTab: false,
       },
       {
-        id: 45,
+        id: 55,
         title: "Junior SW Engineer",
         path: "/blog-junior",
         newTab: false,
