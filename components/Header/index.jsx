@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import LanguageSwitcher from "./LanguageSwitcher2";
 
 const Header = () => {
   // Navbar toggle
@@ -164,6 +165,9 @@ const Header = () => {
                 >
                   Sign Up
                 </Link> */}
+                <div>
+                  <LanguageSwitcher />
+                </div>
                 <div>
                   <ThemeToggler />
                 </div>

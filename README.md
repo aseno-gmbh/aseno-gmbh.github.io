@@ -10,3 +10,6 @@ npm run build
 npm run export
 serve out
 ```
+
+Static HTML Export with i18n compatibility in Next.js 
+https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd
