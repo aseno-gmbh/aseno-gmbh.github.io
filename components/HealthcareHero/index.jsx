@@ -18,7 +18,7 @@ const HealthcareHero = () => {
                 Digitize Healthcare
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                ASENO is specialized in
+                ASENO is specialized in&nbsp;
                     <em>
                         <u>Healthcare Platform Development</u>,
                         <u>Healthcare Data Interoperability standards implementation</u>,

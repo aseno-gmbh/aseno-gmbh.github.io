@@ -111,6 +111,7 @@ const Header = () => {
                           <Link
                             href={menuItem.path}
                             className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            onClick={navbarToggleHandler}
                           >
                             {menuItem.title}
                           </Link>
@@ -140,6 +141,7 @@ const Header = () => {
                                   href={submenuItem.path}
                                   key={submenuItem.id}
                                   className="block rounded py-2.5 text-sm text-dark hover:opacity-70 dark:text-white lg:px-3"
+                                  onClick={navbarToggleHandler}
                                 >
                                   {submenuItem.title}
                                 </Link>
