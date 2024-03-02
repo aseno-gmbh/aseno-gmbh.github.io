@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import LanguageSwitcher from "./LanguageSwitcher2";
+// import LanguageSwitcher from "./LanguageSwitcher2";
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   // Navbar toggle
@@ -12,7 +13,7 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
-
+  const { t } = useTranslation();
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
@@ -168,7 +169,8 @@ const Header = () => {
                   Sign Up
                 </Link> */}
                 <div>
-                  <LanguageSwitcher />
+                  {/* <LanguageSwitcher /> */}
+                  <p>{t('common.caseHistof')}</p>
                 </div>
                 <div>
                   <ThemeToggler />
