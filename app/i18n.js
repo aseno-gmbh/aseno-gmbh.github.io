@@ -16,12 +16,13 @@ const resources = {
 
 i18n
   //.use(Backend)
-  .use(LanguageDetector)
+  //.use(LanguageDetector)
   .use(initReactI18next) // bind react-i18next to the instance
   .init({
     resources,
-    fallbackLng: 'de',
+    lng: 'de',
     debug: true,
+    fallbackLng: "de",
 
     interpolation: {
       escapeValue: false, // not needed for react!!

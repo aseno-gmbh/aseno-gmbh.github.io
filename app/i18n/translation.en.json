@@ -1,5 +1,6 @@
 {
     "common": {
+      "language": "English",
       "edit": "Bearbeiten",
       "add": "Hinzufügen",
       "cancel": "Abbrechen",
@@ -37,6 +38,10 @@
       "pageNotFound": "Seite nicht gefunden",
       "notFoundPageText": "Die angegebene Datei wurde auf dieser Website nicht gefunden. Bitte überprüfen Sie die URL auf Fehler und versuchen Sie es erneut.",
       "backHome": "Zurück nach Hause"
+
+    },
+    "home": {
+      "firstLine": "ASENO specializes in optimizing business processes and creating more value from customer data. We help clients reduce costs, increase efficiency, and improve user experience. Our vision is to create a world in which people have affordable access to quality content while enjoying a pleasant, relevant user experience. We strongly believe in the <shared value> approach."
     }
   }
   

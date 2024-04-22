@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-// import LanguageSwitcher from "./LanguageSwitcher2";
+import LanguageSwitcher2 from "./LanguageSwitcher2";
+
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
@@ -169,8 +170,7 @@ const Header = () => {
                   Sign Up
                 </Link> */}
                 <div>
-                  {/* <LanguageSwitcher /> */}
-                  <p>{t('common.caseHistof')}</p>
+                  { <LanguageSwitcher2 /> }
                 </div>
                 <div>
                   <ThemeToggler />
