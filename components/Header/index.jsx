@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageSwitcher2 from "./LanguageSwitcher2";
+
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {

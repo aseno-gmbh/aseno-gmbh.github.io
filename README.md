@@ -24,3 +24,4 @@ https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd
 ### current problem
 i18next::translator: missingKey de translation home.firstLine home.firstLine
 lang switch does not work
+

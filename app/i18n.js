@@ -23,6 +23,7 @@ i18n
     lng: 'de',
     debug: true,
     fallbackLng: "de",
+
     interpolation: {
       escapeValue: false, // not needed for react!!
     },
