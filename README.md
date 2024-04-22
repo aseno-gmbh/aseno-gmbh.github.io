@@ -17,3 +17,10 @@ npm run dev
 npm run export
 serve out
 ```
+
+Static HTML Export with i18n compatibility in Next.js 
+https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd
+
+### current problem
+i18next::translator: missingKey de translation home.firstLine home.firstLine
+lang switch does not work
