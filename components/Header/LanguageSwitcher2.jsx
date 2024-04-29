@@ -1,22 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { FormControl, FormHelperText, Grid, MenuItem, Select } from "@mui/material";
-import { useTranslation , useLanguageQuery} from "react-i18next";
-// import Flagde from "/images/locales/de.png";
-// import Flagen from "/images/locales/en.png";
-//import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+import { useTranslation } from "react-i18next";
 import i18n from 'i18next';
 
 const LanguageSwitcher2 = ()  => {
   const { t } = useTranslation();
-  //const [query] = useLanguageQuery();
-
 
   const handleLanguageChange = (e) => {
     const newLang = e.target.value;
-    // localStorage.setItem("lng", language);
-    //setSelectedLang(language);
+    localStorage.setItem("lng", newLang);
     i18n.changeLanguage(newLang); //change the language
-    // window.location.reload();
   };
   return (
     <FormControl sx={{ m: 1, minHeight: 1 }} size="small">
