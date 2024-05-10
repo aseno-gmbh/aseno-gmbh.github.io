@@ -12,20 +12,22 @@ const LanguageSwitcher2 = ()  => {
     i18n.changeLanguage(newLang); //change the language
   };
   return (
-    <FormControl sx={{ m: 1, minHeight: 1 }} size="small">
-      <Select value={i18n.language} onChange={handleLanguageChange}>
-        <MenuItem value="de">
+    <FormControl size="small" sx={{ m: 1, minHeight: 1 }}  className="leading-tight text-black dark:text-white sm:leading-tight">
+      <Select value={i18n.language} onChange={handleLanguageChange} className="leading-tight text-black dark:text-white sm:leading-tight">
+        <MenuItem value="de" className="leading-tight text-black dark:text-white sm:leading-tight">
           <Grid
             container
             direction="row"
             justifyContent="flex-start"
             alignItems="center"
-            spacing={2}
+            spacing={1}
+            className={"leading-tight text-black dark:text-white sm:leading-tight"}
           >
-            <Grid item>
-              <img alt="" src="/images/locales/de.png" height="25px" width="25px" />
+            <Grid item >
+              <img alt="" src="/images/locales/de.png" height="22px" width="22px" />
             </Grid>
-            <Grid item>Deutsch</Grid>
+            
+            {/* <Grid item><div className="leading-tight text-black dark:text-white sm:leading-tight">DE</div></Grid> */}
           </Grid>
         </MenuItem>
         <MenuItem value="en">
@@ -34,20 +36,18 @@ const LanguageSwitcher2 = ()  => {
             direction="row"
             justifyContent="flex-start"
             alignItems="center"
-            spacing={2}
+            spacing={1}
+            className="leading-tight text-black dark:text-white sm:leading-tight"
           >
-            <Grid item>
-              <img alt="" src="/images/locales/en.png" height="25px" width="25px" />
+            <Grid item >
+              <img alt="" src="/images/locales/en.png" height="22px" width="22px" />
             </Grid>
-            <Grid item>English</Grid>
+            
+            {/* <Grid item><div className="leading-tight text-black dark:text-white sm:leading-tight">EN</div></Grid> */}
           </Grid>
         </MenuItem>
       </Select>
-      { (
-        <FormHelperText variant="standard" sx={{ fontSize: 12 }}>
-          {t("common.selectLang", {})}
-        </FormHelperText>
-      )}
+      
     </FormControl>
   );
 };

@@ -61,7 +61,7 @@ const Header = () => {
                   src="/images/logo/aseno_logo_ae.svg"
                   alt="logo"
                   width={140}
-                  height={30}
+                  height={25}
                   className="w-full dark:hidden"
                 />
                 <Image
@@ -69,7 +69,7 @@ const Header = () => {
                   src="/images/logo/aseno_logo_inv_ae.svg"
                   alt="logo"
                   width={140}
-                  height={30}
+                  height={25}
                   className="hidden w-full dark:block"
                 />
               </Link>
@@ -170,7 +170,7 @@ const Header = () => {
                   Sign Up
                 </Link> */}
                 <div>
-                  { <LanguageSwitcher2 /> }
+                   <LanguageSwitcher2 /> 
                 </div>
                 <div>
                   <ThemeToggler />

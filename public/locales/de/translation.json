@@ -42,5 +42,8 @@
   },
   "home": {
     "firstLine": "ASENO macht alles richtig !!!"
+  },
+  "services":{
+    "firstLine": "ASENO kann dir helfen ;-)"
   }
 }
