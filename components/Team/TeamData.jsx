@@ -77,7 +77,7 @@ const teamData = [
     name: "Valentin Forst",
     title: "CTO",
     paragraph:
-      "With a Computer Science degree under his belt, he's the mastermind behind our Big Data, AI, and Cloud Computing ventures. Whether he's optimizing algorithms or scaling our cloud infrastructure, he does it all with a flair that keeps us ahead of the curve. When he's not busy revolutionizing our digital infrastructure, he's probably dreaming up the next big thing in tech.",
+      "Armed with an Informatics degree, heart for digital Healthcare and a brain wired for Big Data, AI, and Cloud Computing, Valentin transforms complex tech into valuable solutions. When not conjuring tech magic, he is probably decoding the next big thing in tech, ensuring our company stays years ahead of the curve.",
   }
 
 ];
