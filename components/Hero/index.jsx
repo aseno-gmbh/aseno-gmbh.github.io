@@ -1,6 +1,10 @@
+'use client';
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
+import { createContext } from 'react';
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section
@@ -15,17 +19,17 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Use Data to Get a 360-Degree View of Your Business
+                {t('home.asenoTitle')}
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                ASENO specializes in optimizing business processes and creating more value from customer data. We help clients reduce costs, increase efficiency, and improve user experience. Our vision is to create a world in which people have affordable access to quality content while enjoying a pleasant, relevant user experience. We strongly believe in the "shared value" approach.
+                {t('home.firstLine')}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/about"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Learn more
+                    {t('common.aboutUs')}
                   </Link>
                   {/* <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"

@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import LanguageSwitcher2 from "./LanguageSwitcher2";
+
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   // Navbar toggle
@@ -11,7 +14,7 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
-
+  const { t } = useTranslation();
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
@@ -58,7 +61,7 @@ const Header = () => {
                   src="/images/logo/aseno_logo_ae.svg"
                   alt="logo"
                   width={140}
-                  height={30}
+                  height={25}
                   className="w-full dark:hidden"
                 />
                 <Image
@@ -66,7 +69,7 @@ const Header = () => {
                   src="/images/logo/aseno_logo_inv_ae.svg"
                   alt="logo"
                   width={140}
-                  height={30}
+                  height={25}
                   className="hidden w-full dark:block"
                 />
               </Link>
@@ -166,6 +169,9 @@ const Header = () => {
                 >
                   Sign Up
                 </Link> */}
+                <div>
+                   <LanguageSwitcher2 /> 
+                </div>
                 <div>
                   <ThemeToggler />
                 </div>
