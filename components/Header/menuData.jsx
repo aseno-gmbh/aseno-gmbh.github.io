@@ -7,12 +7,18 @@ const menuData = [
   },
   {
     id: 2,
+    title: "Team",
+    path: "/team",
+    newTab: false,
+  },
+  {
+    id: 3,
     title: "Services",
     path: "/about",
     newTab: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Healthcare",
     path: "/healthcare",
     newTab: false,
@@ -24,13 +30,13 @@ const menuData = [
   //   newTab: false,
   // },
   {
-    id: 4,
+    id: 5,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Career",
     newTab: false,
     submenu: [
