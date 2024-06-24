@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="bg-primary/1 py-1">
                   <div className="container">
                     <p className="text-center text-base text-body-color dark:text-white">
-                      <a href="https://aseno.de" rel="nofollow noopener">Aseno Ltd. 2023</a>
+                      <a href="https://aseno.de" rel="nofollow noopener">Aseno Ltd. 2024</a>
                     </p>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ const Footer = () => {
         {/* <div className="bg-primary/8 py-6">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              <a href="https://aseno.de" rel="nofollow noopener">Aseno Ltd. 2023</a>
+              <a href="https://aseno.de" rel="nofollow noopener">Aseno Ltd. 2024</a>
             </p>
           </div>
         </div> */}

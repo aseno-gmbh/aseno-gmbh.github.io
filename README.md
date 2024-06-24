@@ -5,6 +5,8 @@ It is 100% free and open-source. Copy and use it..
 
 To run the application in local system
 ```
+# In case of differences with package-lock.json run...
+npm install
 # first, if you did't have install the packages yet
 npm ci
 # second, compile and build the libs
