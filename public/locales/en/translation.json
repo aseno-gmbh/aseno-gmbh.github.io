@@ -37,13 +37,28 @@
     "wentWrong": "Irgendetwas ist schief gelaufen",
     "pageNotFound": "Seite nicht gefunden",
     "notFoundPageText": "Die angegebene Datei wurde auf dieser Website nicht gefunden. Bitte überprüfen Sie die URL auf Fehler und versuchen Sie es erneut.",
-    "backHome": "Zurück nach Hause"
+    "backHome": "Zurück nach Hause",
+    "aboutUs": "About us"
 
   },
   "home": {
-    "firstLine": "ASENO specializes in optimizing business processes and creating more value from customer data. We help clients reduce costs, increase efficiency, and improve user experience. Our vision is to create a world in which people have affordable access to quality content while enjoying a pleasant, relevant user experience. We strongly believe in the <shared value> approach."
+    "asenoTitle": "ASENO: Software Engineering for a Better Health Care",
+    "firstLine": "Our mission is to transform healthcare through innovative and proven software solutions. By using state-of-the-art technologies such as artificial intelligence, big data and cloud computing, we aim to improve the efficiency and quality of healthcare to create sustainable value for patients, medical staff and healthcare facilities."
   },
   "services":{
-    "firstLine": "ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Learn about some of our past projects below, and get in touch to see what we can do for you."
+    "firstLine": "ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Learn about some of our past projects below, and get in touch to see what we can do for you.",
+    "secondLine": "Wir analysieren ihre bestehenden Software-Landschaft und geben konkrete Handlungsempfehlungen für eine strategisch, nachhaltige Software-Architektur, die es ihnen ermöglicht ihre Prozesse Stück für Stück zu digitalisieren und innovative, entscheidungsunterstützende Module leicht zu integrieren.",
+    "service-plan-title": "Dive Deep Into Your Opportunities!",
+    "service-plan-firstLine": "With our simple but very efficient five-step plan, we take you from the very beginning to the final step.",
+    "service-plan-step-1-title": "Step 1 - Get to Know",
+    "service-plan-step-1-description": "We offer a free webinar. With an hour, ASENO engineers will figure out what our customers' goals, needs and pain points are. If ASENO can help, we will discuss different options based on our experience. At the end of our webinar, the ASENO engineers will provide initial feedback!",
+    "service-plan-step-2-title": "Step 2 - Create a Concept",
+    "service-plan-step-2-description": "ASENO creates a concept with the aim of providing an offer with a cost estimate. Here we offer a day workshop to exactly understand the requirements of our customers. Based on the workshop, we create a concept with a business and technical focus. We offer solutions in sizes S, M, L and XL. The customer can start with S and later switch to L or XL. The result is a concept! with an existing schedule to complete the project. All costs are transparent and fixed.",
+    "service-plan-step-3-title": "Step 3 - Doing the Right Job",
+    "service-plan-step-3-description": "Developing, Testing & most important - Customer Feedback-Loop! ASENO initializes a customer-specific project. Resources, data pipelines and a special team with the required know-how is formed to fulfill the project on time & best quality possible. Agile development. Every 2 weeks ASENO presents the progress of the current work. The customer can submit feedback and change requests. Test & communication with the customer are provided on a weekly basis.",
+    "service-plan-step-4-title": "Step 4 - Hand Over",
+    "service-plan-step-4-description": "Delivery the final product including documentation and know-how transfer to the customer. Our team takes care that the customer is satisfied with the final product / work.",
+    "service-plan-step-5-title": "Step 5 - Keep on Helping",
+    "service-plan-step-5-description": "We do not leave our customers on its own after we finished the good work. From time to time a software needs to be updated, customers wish more functionalities or changes. ASENO offers a support and additional service if needed/ required."
   }
 }

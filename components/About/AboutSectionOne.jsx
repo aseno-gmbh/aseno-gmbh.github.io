@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import { useTranslation } from 'react-i18next';
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -8,6 +9,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  const { t } = useTranslation();
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,8 +26,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 ">
               <SectionTitle
-                title="Dive Deep Into Your Opportunities!"
-                paragraph="With our simple but very efficient five-step plan, we take you from the very beginning to the final step."
+                title={t('services.service-plan-title')}
+                paragraph={t('services.service-plan-firstLine')}
                 mb="44px"
               />
 
@@ -35,31 +37,25 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3  lg:w-full ">
-                    <List text="Step  1   -  Get to Know" />
+                    <List text={t('services.service-plan-step-1-title')}/>
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    We offer a free webinar. With an hour, ASENO engineers will figure out what our customers' goals, needs and pain points are. If ASENO can help, we will discuss different options based on our experience. At the end of our webinar, the ASENO engineers will provide initial feedback! 
+                    {t('services.service-plan-step-1-description')}
                     </p>
-                    <List text="Step  2   -  Create a Concept" />
+                    <List text={t('services.service-plan-step-2-title')} />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    ASENO creates a concept with the aim of providing an offer with a cost estimate.
-Here we offer a day workshop to exactly understand the requirements of our customers.
-Based on the workshop, we create a concept with a business and technical focus. We offer solutions in sizes S, M, L and XL. The customer can start with S and later switch to L or XL.
-The result is a concept! with an existing schedule to complete the project. All costs are transparent and fixed.
+                    {t('services.service-plan-step-2-description')}
                     </p>
-                    <List text="Step  3   -  Doing the Right Job" />
+                    <List text={t('services.service-plan-step-3-title')} />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Developing, Testing & most important - Customer Feedback-Loop!
-ASENO initializes a customer-specific project. Resources, data pipelines and a special team with the required know-how is formed to fulfill the project on time & best quality possible. 
-Agile development. Every 2 weeks ASENO presents the progress of the current work. The customer can submit feedback and change requests. Test & communication with the customer are provided on a weekly basis.
+                    {t('services.service-plan-step-3-description')}
                     </p>
-                    <List text="Step  4   -  Hand Over" />
+                    <List text={t('services.service-plan-step-4-title')} />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Delivery the final product including documentation and know-how transfer to the customer. Our team takes care that the customer is satisfied with the final product / work.
+                    {t('services.service-plan-step-4-description')}
                     </p>
-                    <List text="Step  5   -  Keep on Helping" />
+                    <List text={t('services.service-plan-step-5-title')} />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    We do not leave our customers on its own after we finished the good work. From time to time a software needs to be updated, customers wish more functionalities or changes.
-ASENO offers a support and additional service if needed/ required.
+                    {t('services.service-plan-step-5-description')}
                     </p>
                   </div>
 {/* 
