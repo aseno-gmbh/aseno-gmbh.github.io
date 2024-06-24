@@ -7,20 +7,26 @@ const menuData = [
   },
   {
     id: 2,
-    title: "Team",
-    path: "/team",
-    newTab: false,
-  },
-  {
-    id: 3,
     title: "Services",
     path: "/about",
     newTab: false,
   },
   {
-    id: 4,
+    id: 3,
     title: "Healthcare",
     path: "/healthcare",
+    newTab: false,
+  },
+  {
+    id: 4,
+    title: "Team",
+    path: "/team",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Customers",
+    path: "/customers",
     newTab: false,
   },
   // {
@@ -30,7 +36,7 @@ const menuData = [
   //   newTab: false,
   // },
   {
-    id: 5,
+    id: 6,
     title: "Contact",
     path: "/contact",
     newTab: false,
