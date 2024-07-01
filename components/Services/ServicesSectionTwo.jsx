@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const AboutSectionTwo = () => {
+const ServicesSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -66,4 +66,4 @@ ASENO has more than 15 years experience on building and running data intensive a
   );
 };
 
-export default AboutSectionTwo;
+export default ServicesSectionTwo;

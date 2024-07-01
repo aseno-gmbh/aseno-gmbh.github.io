@@ -1,10 +1,10 @@
 "use client";
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
+import ServicesSectionTwo from "@/components/Services/ServicesSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { useTranslation } from 'react-i18next';
 
-const AboutPage = () => {
+const ServicesPage = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -12,10 +12,10 @@ const AboutPage = () => {
         pageName="Services"
         description={t('services.firstLine')}
       />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <ServicesSectionOne />
+      <ServicesSectionTwo />
     </>
   );
 };
 
-export default AboutPage;
+export default ServicesPage;

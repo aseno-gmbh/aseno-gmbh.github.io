@@ -8,7 +8,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const ServicesSectionOne = () => {
   const { t } = useTranslation();
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -88,4 +88,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default ServicesSectionOne;
