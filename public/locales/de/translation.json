@@ -73,6 +73,15 @@
     "mira-paragraph":"Als diplomierte Bioinformatikerin und ihrer jahrelangen Arbeit als Softwareentwicklerin bringt Mira nicht nur umfangreiches technisches Wissen mit, sondern auch eine tiefe Leidenschaft für Innovation und Fortschritt im Gesundheitswesen. Als ausgebildete Yoga-Lehrerin und naturverbundener Mensch wünscht sie sich eine umfassendere Herangehensweise im Gesundheitswesen, die moderne Technologie mit ganzheitlichen Methoden verbindet.  Wir sind stolz, sie in unserem Team zu haben und gemeinsam mit ihr als Leiterin der Geschäftsentwicklung die Zukunft des Gesundheitswesens positiv zu gestalten.",
     "joysankar-title":"Head of User Experience Design",
     "joysankar-paragraph":"Und hier der Text von Joysankar"
+  },
+  "customers": {
+    "title": "Einige unserer vergangenen und aktuellen Projekte",
+    "bmw-designation":"Automotive",
+    "bmw-content": "Die Bayerische Motoren Werke Aktiengesellschaft ist ein börsennotierter Automobil- und Motorradhersteller mit Sitz in München, der auch als BMW Group auftritt. Von 2012 bis 2014 waren die Architekten und Entwickler von ASENO für Konzeption, Spezifikation, Umsetzung, Test und Launch/Release des Online-Konfigurators der BMW AG verantwortlich. Die auf Portaltechnologie basierende Website inklusive Backend-Komponenten (CRM, Author and Publisher, Web Analytics) wurde in mehreren Ländern sehr erfolgreich eingeführt: bmw.de, bmw.nl, bmw.at, bmw.co.uk.",
+    "ing-designation":"Banken",
+    "ing-content": "ING (oder ING DiBa) ist eine der größten und am schnellsten wachsenden Online-Banken in Deutschland. Die Ingenieure von ASENO haben das interne Softwareteam der ING DiBa sehr erfolgreich bei der Einrichtung, Analyse, Entwicklung und Einführung einer Kundenkontextplattform unterstützt. Die auf BigData- und SpeedData-Technologie (Echtzeit-/Near-Time-Datenanalyse und Push-Benachrichtigungen) basierende Plattform ging 2017 in Betrieb und wird nach wie vor unter anderem für Kundenbenachrichtigungen und Betrugserkennung umfassend genutzt.",
+    "ba-designation":"Öffentliche Behörden",
+    "ba-content": "Das IT-Systemhaus der Bundesagentur für Arbeit (BA) ist für die strategische Ausrichtung, Weiterentwicklung und Sicherheit mehrerer interner Softwareprodukte verantwortlich. ASENO berät BA derzeit zu geschäftskritischen Infrastrukturkomponenten, Containerplattformen und Cloud-nativen Anwendungen. In den letzten Jahren wurden BigData-Produkte zur Analyse, Verarbeitung und Visualisierung interner Daten erfolgreich im Produktivumfeld eingeführt."
   }
 
 }

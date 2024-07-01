@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 const SingleMember = ({ member }) => {
   const { t } = useTranslation();
-  const { id, icon, name, title, paragraph } = member;
+  //const { id, icon, name, title, paragraph } = member;
+  const { id, icon, name } = member;
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">

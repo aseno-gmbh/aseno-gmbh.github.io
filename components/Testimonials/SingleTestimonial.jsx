@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { useTranslation } from 'react-i18next';
+
 const starIcon = (
   <svg width="18" height="16" viewBox="0 0 18 16" className="fill-current">
     <path d="M9.09815 0.361679L11.1054 6.06601H17.601L12.3459 9.59149L14.3532 15.2958L9.09815 11.7703L3.84309 15.2958L5.85035 9.59149L0.595291 6.06601H7.0909L9.09815 0.361679Z" />
@@ -7,7 +9,8 @@ const starIcon = (
 
 const SingleTestimonial = ({ testimonial }) => {
   // const { star, name, image, content, designation } = testimonial;
-  const { name, designation, content } = testimonial;
+  const { t } = useTranslation();
+  const { id, name } = testimonial;
 
   // let ratingIcons = [];
   // for (let index = 0; index < star; index++) {
@@ -33,13 +36,13 @@ const SingleTestimonial = ({ testimonial }) => {
             <h5 className="mb-1 text-lg font-semibold text-dark dark:text-white lg:text-base xl:text-lg">
               {name}
             </h5>
-            <p className="text-sm text-body-color">{designation}</p>
+            <p className="text-sm text-body-color"> {t('customers.'+ id + '-designation')}</p>
           </div>
         </div>
         {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
         {/* <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white"> */}
         <div className="mb-8  text-base leading-relaxed text-body-color  dark:text-white">
-          {content}
+        {t('customers.'+ id + '-content')}
         </div>
 
       </div>

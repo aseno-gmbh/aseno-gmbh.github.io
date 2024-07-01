@@ -1,7 +1,6 @@
 'use client';
 import Link from "next/link";
 import { useTranslation } from 'react-i18next';
-import { createContext } from 'react';
 
 const Hero = () => {
   const { t } = useTranslation();

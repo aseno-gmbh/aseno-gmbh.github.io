@@ -74,5 +74,14 @@
     "mira-paragraph":"As a qualified bioinformatician and having worked as a software developer for many years, Mira not only brings extensive technical knowledge, but also a deep passion for innovation and progress in healthcare. As a trained yoga teacher and nature-loving person, she would like to see a more comprehensive approach to healthcare that combines modern technology with holistic methods.  We are proud to have her on our team and, together with her as head of business development, we will positively shape the future of healthcare.",
     "joysankar-title":"Head of User Experience Design",
     "joysankar-paragraph":""
+  },
+  "customers": {
+    "title": "Some of Our Past and Current Projects",
+    "bmw-designation":"Automotive",
+    "bmw-content": "BMW AG is a German multinational corporation which produces luxury vehicles and motorcycles. From 2012 to 2014, the architects and developers at ASENO were responsible for the concept, specification, implementation, testing and launch / release of the BMW AG online configurator. The website, based on portal technology, including backend components (CRM, Author and Publisher, Web Analytics) was launched very successfully in several countries: bmw.de, bmw.nl, bmw.at, bmw.co.uk.",
+    "ing-designation":"Banking",
+    "ing-content": "ING (or ING DiBa) is one of the biggest and fast-growing online banks in Germany. ASENO engineers very successfully supported the internal software team at ING DiBa in setting up, analyzing, developing and launching a customer context platform. The platform - based on BigData and SpeedData technology (realtime / near time data analysis and push notifications) went live in 2017 and is still used extensively for customer notifications and fraud detection, among other things.",
+    "ba-designation":"Governance",
+    "ba-content": "The IT system house of the Federal Employment Agency (BA) is responsible for the strategic alignment, further development and security of several internal software products. ASENO is currently advising BA on business-critical infrastructure components, container platforms and cloud-native applications. In the past few years, BigData products for the analysis, processing and visualization of internal data have been successfully introduced in the productive environment."
   }
 }

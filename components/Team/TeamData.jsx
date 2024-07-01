@@ -11,9 +11,9 @@ const teamData = [
       </svg>
     ),
     name: "Manfred Erlwein",
-    title: "CEO",
-    paragraph:
-      "The CEO who defies conventions. With a background in both physics and psychology, Manfred has a knack for understanding the laws of the universe and the quirks of the human mind. Mixing quantum equations with mind-bending insights, Manfred doesn't just lead—he innovates. With a knack for turning complex problems into simple solutions, he's taking tech—and our team—to infinity and beyond!",
+    // title: "CEO",
+    // paragraph:
+    //   "The CEO who defies conventions. With a background in both physics and psychology, Manfred has a knack for understanding the laws of the universe and the quirks of the human mind. Mixing quantum equations with mind-bending insights, Manfred doesn't just lead—he innovates. With a knack for turning complex problems into simple solutions, he's taking tech—and our team—to infinity and beyond!",
    },
    {
     id: 'valentin',
@@ -27,9 +27,9 @@ const teamData = [
       </svg>
     ),
     name: "Valentin Forst",
-    title: "CTO",
-    paragraph:
-      "Armed with an Informatics degree, heart for digital Healthcare and a brain wired for Big Data, AI, and Cloud Computing, Valentin transforms complex tech into valuable solutions. When not conjuring tech magic, he is probably decoding the next big thing in tech, ensuring our company stays years ahead of the curve.",
+    // title: "CTO",
+    // paragraph:
+    //   "Armed with an Informatics degree, heart for digital Healthcare and a brain wired for Big Data, AI, and Cloud Computing, Valentin transforms complex tech into valuable solutions. When not conjuring tech magic, he is probably decoding the next big thing in tech, ensuring our company stays years ahead of the curve.",
   },
   {
     id: 'chandra',
@@ -43,9 +43,9 @@ const teamData = [
       </svg>
     ),
     name: "Chandra Shekhar Sengupta",
-    title: "Director of Healthcare Solutions",
-    paragraph:
-      "Our globe-trotting healthcare guru! As the head of Healthcare, Chandra brings a unique blend of tech-savviness and medical know-how to the team. With a background in Computer Science, Chandra has integrated cutting-edge healthcare systems around the world. Whether it’s optimizing patient care or implementing innovative health solutions, Chandra’s got it covered. ",
+    // title: "Director of Healthcare Solutions",
+    // paragraph:
+    //   "Our globe-trotting healthcare guru! As the head of Healthcare, Chandra brings a unique blend of tech-savviness and medical know-how to the team. With a background in Computer Science, Chandra has integrated cutting-edge healthcare systems around the world. Whether it’s optimizing patient care or implementing innovative health solutions, Chandra’s got it covered. ",
   },
   {
     id: 'mira',
@@ -59,9 +59,9 @@ const teamData = [
       </svg>
     ),
     name: "Mira Edelstein",
-    title: "Head of Bisiness Development",
-    paragraph:
-      "Our vibrant head of Business Development! With a Bioinformatics degree from LMU under her belt, she's our go-to for blending science and business like a pro. Mira's got the knack for turning complex data into golden opportunities, and she does it all with an unstoppable energy. Whether she's decoding genomes or market trends, she's the catalyst that drives our success.",
+    // title: "Head of Bisiness Development",
+    // paragraph:
+    //   "Our vibrant head of Business Development! With a Bioinformatics degree from LMU under her belt, she's our go-to for blending science and business like a pro. Mira's got the knack for turning complex data into golden opportunities, and she does it all with an unstoppable energy. Whether she's decoding genomes or market trends, she's the catalyst that drives our success.",
   },
   {
     id: 'joysankar',
@@ -75,9 +75,9 @@ const teamData = [
       </svg>
     ),
     name: "Joysankar Sengupta",
-    title: "Head of User Experience Design",
-    paragraph:
-      "With a background in Computer Science, Joysankar has mastered the art of crafting UX systems that delight users worldwide. Whether he's crafting seamless user interfaces or sprinkling a bit of design magic, he always ensures our users' joy is front and center. Joysankar's blend of technical prowess and creative flair makes him an invaluable asset to our crew!",
+    // title: "Head of User Experience Design",
+    // paragraph:
+    //   "With a background in Computer Science, Joysankar has mastered the art of crafting UX systems that delight users worldwide. Whether he's crafting seamless user interfaces or sprinkling a bit of design magic, he always ensures our users' joy is front and center. Joysankar's blend of technical prowess and creative flair makes him an invaluable asset to our crew!",
   }
 
 ];
