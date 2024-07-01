@@ -1,5 +1,7 @@
+"use client";
 import Head from "next/head";
 import Team from "@/components/Team";
+
 export default function TeamPage() {
   return (
     <>

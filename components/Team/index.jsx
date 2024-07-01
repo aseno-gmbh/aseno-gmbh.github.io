@@ -1,8 +1,10 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleMember from "./SingleMember";
 import teamData from "./TeamData";
+import { useTranslation } from 'react-i18next';
 
 const Team = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section
@@ -11,8 +13,8 @@ const Team = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Team"
-            paragraph="Meet our team! Expertise is not merely a possession but a tool wielded with finesse, shaping the digital healthcare future with every innovation they conceive."
+            title={t('team.title')}
+            paragraph={t('team.paragraph')}
             center
           />
 

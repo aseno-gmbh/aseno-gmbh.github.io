@@ -1,5 +1,9 @@
+
+import { useTranslation } from 'react-i18next';
+
 const SingleMember = ({ member }) => {
-  const { icon, name, title, paragraph } = member;
+  const { t } = useTranslation();
+  const { id, icon, name, title, paragraph } = member;
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">
@@ -10,10 +14,10 @@ const SingleMember = ({ member }) => {
           {name}
         </h3>
         <p className="mb-3 pr-[12px] text-base font-medium leading-relaxed text-body-color">
-          {title}
+          {t('team.'+ id +'-title')}
         </p>
         <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
-          {paragraph}
+          {t('team.'+ id +'-paragraph')}
         </p>
       </div>
     </div>

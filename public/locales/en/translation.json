@@ -42,7 +42,7 @@
 
   },
   "home": {
-    "asenoTitle": "ASENO: Software Engineering for a Better Health Care",
+    "asenoTitle": "Software Engineering for a Better Health Care",
     "firstLine": "Our mission is to transform healthcare through innovative and proven software solutions. By using state-of-the-art technologies such as artificial intelligence, big data and cloud computing, we aim to improve the efficiency and quality of healthcare to create sustainable value for patients, medical staff and healthcare facilities."
   },
   "services":{
@@ -60,5 +60,19 @@
     "service-plan-step-4-description": "Delivery the final product including documentation and know-how transfer to the customer. Our team takes care that the customer is satisfied with the final product / work.",
     "service-plan-step-5-title": "Step 5 - Keep on Helping",
     "service-plan-step-5-description": "We do not leave our customers on its own after we finished the good work. From time to time a software needs to be updated, customers wish more functionalities or changes. ASENO offers a support and additional service if needed/ required."
+  },
+  "team": {
+    "title": "Our Team",
+    "paragraph": "Meet our team! Expertise is not merely a possession but a tool wielded with finesse, shaping the digital healthcare future with every innovation they conceive.",
+    "manfred-title":"CEO",
+    "manfred-paragraph":"",
+    "valentin-title": "CTO Chief Technologie Officer",
+    "valentin-paragraph":"Valentin is our Chief Technology Officer (CTO) and the driving force behind the technological innovations of our IT company. With a diploma in computer science, extensive experience as a software architect and his enthusiasm for innovative technologies, he brings in-depth technical know-how to our team. Known as an icebreaker and innovative thinker, Valentin is at the forefront of developing groundbreaking solutions. His vision is to ensure the best possible medical care for the people around him through advanced and proven technologies.",
+    "chandra-title":"Director of Healthcare Solutions",
+    "chandra-paragraph":"",
+    "mira-title":"Head of Business Development",
+    "mira-paragraph":"As a qualified bioinformatician and having worked as a software developer for many years, Mira not only brings extensive technical knowledge, but also a deep passion for innovation and progress in healthcare. As a trained yoga teacher and nature-loving person, she would like to see a more comprehensive approach to healthcare that combines modern technology with holistic methods.  We are proud to have her on our team and, together with her as head of business development, we will positively shape the future of healthcare.",
+    "joysankar-title":"Head of User Experience Design",
+    "joysankar-paragraph":""
   }
 }
