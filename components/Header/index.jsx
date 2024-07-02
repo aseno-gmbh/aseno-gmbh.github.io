@@ -115,7 +115,8 @@ const Header = () => {
                             className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                             onClick={navbarToggleHandler}
                           >
-                            {menuItem.title}
+                            {/* {menuItem.title} */}
+                            {t('menuData.' + menuItem.id)}
                           </Link>
                         ) : (
                           <>

@@ -9,8 +9,8 @@ const ServicesPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Services"
-        description={t('services.firstLine')}
+        pageName={t('menuData.services')}
+        // description={t('services.firstLine')}
       />
       <ServicesSectionOne />
       <ServicesSectionTwo />

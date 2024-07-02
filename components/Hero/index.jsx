@@ -28,7 +28,7 @@ const Hero = () => {
                     href="/team"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    {t('common.aboutUs')}
+                    {t('menuData.about')}
                   </Link>
                   {/* <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"

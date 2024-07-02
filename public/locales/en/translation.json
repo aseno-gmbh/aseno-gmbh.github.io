@@ -37,9 +37,16 @@
     "wentWrong": "Irgendetwas ist schief gelaufen",
     "pageNotFound": "Seite nicht gefunden",
     "notFoundPageText": "Die angegebene Datei wurde auf dieser Website nicht gefunden. Bitte überprüfen Sie die URL auf Fehler und versuchen Sie es erneut.",
-    "backHome": "Zurück nach Hause",
-    "aboutUs": "About us"
+    "backHome": "Zurück nach Hause"
 
+  },
+  "menuData": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "healthcare": "Healthcare",
+    "customers" : "Portfolio",
+    "contact": "Contact"
   },
   "home": {
     "asenoTitle": "Software Engineering for a Better Health Care",

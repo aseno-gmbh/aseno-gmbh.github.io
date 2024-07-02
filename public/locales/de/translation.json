@@ -37,10 +37,18 @@
     "wentWrong": "Irgendetwas ist schief gelaufen",
     "pageNotFound": "Seite nicht gefunden",
     "notFoundPageText": "Die angegebene Datei wurde auf dieser Website nicht gefunden. Bitte überprüfen Sie die URL auf Fehler und versuchen Sie es erneut.",
-    "backHome": "Zurück nach Hause",
-    "aboutUs": "Über uns"
+    "backHome": "Zurück nach Hause"
 
   },
+  "menuData": {
+    "home": "Home",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "healthcare": "Gesundheitswesen",
+    "customers" : "Portfolio",
+    "contact": "Kontakt"
+  },
+
   "home": {
     "asenoTitle": "Software Engineering für ein besseres Gesundheitswesen",
     "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie künstliche Intelligenz, Big Data und Cloud Computing wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen."
