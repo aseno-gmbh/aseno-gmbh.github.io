@@ -53,6 +53,10 @@
     "asenoTitle": "Software Engineering für ein besseres Gesundheitswesen",
     "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie künstliche Intelligenz, Big Data und Cloud Computing wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen."
   },
+  "about": {
+    "title" : "Über uns",
+    "paragraph": "Unsere Expertise ist es ihre Software-Landschaft strategisch klug auszurichten, indem wir eine produktunabhängige und nachhaltige Software-Architektur für Sie anstreben. Durch maßgeschneiderte Lösungen stellen wir sicher, dass Ihre gesamte IT-Infrastruktur optimal auf Ihre individuellen Anforderungen abgestimmt ist. Und zwar übergreifend, denn es gibt nicht das eine Software-Produkt, welches alle Anforderungen im Gesundheitssektor abdecken kann. Es ist vielmehr eine Software-Landschaft von unterschiedlichen, heterogenen Produkten, die im Zusammenspiel das Beste auf ihre individuellen Bedürfnisse und Anwendungsfälle erzielen werden und gleichzeitig flexibel auf Neuerungen reagieren werden."
+  },
   "services":{
     "firstLine": "Sie möchten eine erstklassige, Produkt unabhängige Beratung wie ihre Ziel-Software-Landschaft in ihrem Krankenhaus, Reha, Arztpraxis usw. aussehen kann? Und zwar im Rahmen des Buges, welches Sie sich für diese Umstellung vorgenommen haben?",
     "service-plan-title": "Tauchen Sie tief in ihre Möglichkeiten ein!",
@@ -66,7 +70,13 @@
     "service-plan-step-4-title": "",
     "service-plan-step-4-description": "",
     "service-plan-step-5-title": "",
-    "service-plan-step-5-description": ""
+    "service-plan-step-5-description": "",
+    "first-expertice-titel" : "Skalierbares Geschäftsmodell",
+    "first-expertice-description" : "Daten sind eine der wichtigsten Ressourcen moderner Organisationen. Immer mehr Unternehmen nutzen Daten für ihre Prozesse und Entscheidungen, um ihre individuellen Geschäftsziele zu erreichen. Eine der wichtigsten Fragen ist, welche Produkte Ihre Kunden benötigen und wie können Sie mithilfe der aktuell verfügbaren Daten neue Dienstleistungen anbieten? Könnten Sie diese Daten mit einigen zusätzlichen Informationen kombinieren, um noch personalisiertere Dienste entsprechend den bekannten Vorlieben jedes Kunden anzubieten, oder müssen Sie Ihr Unternehmen für das digitale Zeitalter überdenken? ASENO verfügt über mehr als 15 Jahre Erfahrung auf dem deutschen IT-Markt und beantwortet gerne Ihre Fragen. Bitte vereinbaren Sie einen kostenlosen Termin mit uns! In den letzten Jahren wurden BigData-Produkte zur Analyse, Verarbeitung und Visualisierung interner Daten erfolgreich im Produktivumfeld eingeführt.",
+    "second-expertice-titel" : "Unsere Expertice 2",
+    "second-expertice-description" : "So viel Text ohne viel Bedeutung ;-)",
+    "third-expertice-titel" : "Die strategisch richtige technische Infrastruktur einführen: Cloud-Computing",
+    "third-expertice-description" : "Viele Organisationen und Abteilungen arbeiten an neuen digitalen Produkten oder planen diese. Die IT-Infrastruktur und die passende Software sind entscheidend für jeden Erfolg. Erfinden Sie das Rad nicht neu! On-Premise-, Cloud- oder Hybrid-Infrastruktur? Enterprise Resource Planning (ERP), Customer Relationship Management (CRM) und viele weitere hervorragende Softwareprodukte stehen Ihnen zur Verfügung und kluge Ingenieure arbeiten jeden Tag hart daran, sie noch besser zu machen. Allerdings gibt es kein Allheilmittel! Welches ist das Beste für Ihr Unternehmen und wie können Sie es aktualisieren, erweitern, migrieren oder von Grund auf neu erstellen? ASENO verfügt über mehr als 15 Jahre Erfahrung in der Entwicklung und Ausführung datenintensiver Anwendungen – sowohl in der privaten als auch in der öffentlichen Cloud. Gerne analysieren wir Ihre Geschäftsanforderungen, teilen Best Practices und helfen Ihnen bei der Einführung der am besten geeigneten Lösung in Ihrem Unternehmen."
   },
   "team": {
     "title": "Unser Team",
