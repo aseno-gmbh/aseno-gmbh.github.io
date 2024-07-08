@@ -1,13 +1,14 @@
 "use client";
 import Head from "next/head";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import ServicesSectionTwo from "@/components/Services/ServicesSectionTwo";
+import Features from "@/components/Features";
 import Team from "@/components/Team";
 import { useTranslation } from 'react-i18next';
 
-const TeamPage = () => {
+
+const AboutUsPage = () => {
   const { t } = useTranslation();
-  const myArray = [{ titel: 'hi', paragraph: 'ho'}, {titel: 'huiii', paragraph: 'muiii'} ];
+  //const dataList = [{ id: 1, title: 'Title 1', content: 'content 1'}, { id:2, title: 'title 2', content: 'content 2'} ];
   return (
     <>
       <Head>
@@ -18,11 +19,10 @@ const TeamPage = () => {
         pageName={t('menuData.about')}
         // description={t('services.firstLine')}
       />
-      <ServicesSectionTwo 
-        myArray
-      />
-      <Team />
+     
+    <Features />
+    <Team />
     </>
   );
 };
-export default TeamPage;
+export default AboutUsPage;

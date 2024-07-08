@@ -1,12 +1,25 @@
-import servicesSectionTwoData from "./ServicesSectionTwoData";
+
 import SingleServiceSectionTwo from "./SingleServiceSectionTwo";
+import { useTranslation } from 'react-i18next';
 
-const ServicesSectionTwo = (
-
-  {
-    myArray
-  }
-) => {
+const ServicesSectionTwo = () => {
+  const { t } = useTranslation();
+  const servicesSectionTwoData = [
+    {
+      id: 1,
+      title: t('services.expertice-titel-1'),
+      paragraph: t('services.expertice-description-1')
+    },
+    {
+      id: 2,
+      title: t('services.expertice-titel-2'),
+      paragraph: t('services.expertice-description-2') },
+    {
+      id: 3,
+      title: t('services.expertice-titel-3'),
+      paragraph: t('services.expertice-description-3')
+    }
+  ];
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
