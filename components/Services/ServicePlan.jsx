@@ -8,7 +8,7 @@ const checkIcon = (
   </svg>
 );
 
-const ServicesSectionOne = () => {
+const ServicePlan = () => {
   const { t } = useTranslation();
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -88,4 +88,4 @@ const ServicesSectionOne = () => {
   );
 };
 
-export default ServicesSectionOne;
+export default ServicePlan;

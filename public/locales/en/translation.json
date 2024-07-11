@@ -52,6 +52,15 @@
     "asenoTitle": "Software Engineering for a Better Health Care",
     "firstLine": "Our mission is to transform healthcare through innovative and proven software solutions. By using state-of-the-art technologies such as artificial intelligence, big data and cloud computing, we aim to improve the efficiency and quality of healthcare to create sustainable value for patients, medical staff and healthcare facilities."
   },
+  "about": {
+    "title" : "Is Your Software Landscape Ready For the Digital Future?",
+    "firstLine": "Unsere Expertise: zukunftssichere und produktunabhängige IT-Lösungen für den Healthcare.",
+    "our-values-titel-1": "Unsere Expertise: zukunftssichere und produktunabhängige IT-Lösungen für den Healthcare.",
+    "our-values-descrition-1": "Sie wünsche sich eine...",
+    "our-values-titel-2": "Unsere IT-Kernkompetenz",
+    "our-values-descrition-2": "Bereits etablierte Software Produkte im Health Care Bereich auf Herz und Niere zu prüfen, ob sie für ihren individuellen Anwendungsfall innovativ und nachhaltig genug sind, ist unsere Leidenschaft. Dabei geht unsere Service weit über die Analyse hinaus: auf Wunsch verbessern wir bereits eingesetzte Produkte, indem wir sie durch geeignete Plug Ins oder Adds On erweitern. So können diese dann auf den besten innovativen technischen Stand in ihre Software-Landschaft integriert werden."
+
+  },
   "services":{
     "firstLine": "ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Learn about some of our past projects below, and get in touch to see what we can do for you.",
     "secondLine": "Wir analysieren ihre bestehenden Software-Landschaft und geben konkrete Handlungsempfehlungen für eine strategisch, nachhaltige Software-Architektur, die es ihnen ermöglicht ihre Prozesse Stück für Stück zu digitalisieren und innovative, entscheidungsunterstützende Module leicht zu integrieren.",

@@ -1,4 +1,4 @@
-const SingleServiceSectionTwo = ({ service }) => {
+const SingleService = ({ service }) => {
     const { title, paragraph } = service;
     
     return (
@@ -13,4 +13,4 @@ const SingleServiceSectionTwo = ({ service }) => {
     );
   };
   
-  export default SingleServiceSectionTwo;
+  export default SingleService;

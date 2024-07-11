@@ -1,12 +1,9 @@
 "use client";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
-import featuresData from "./featuresData";
-import { useTranslation } from 'react-i18next';
 
 
-const Features = () => {
-  const { t } = useTranslation();
+const Features = ({featuresData, title, paragraph}) => {
   return (
     <>
       <section
@@ -15,8 +12,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Is Your Business Model Ready For the Digital Future?"
-            paragraph={t('services.firstLine')}
+            title={title}
+            paragraph={paragraph}
             center
           />
 

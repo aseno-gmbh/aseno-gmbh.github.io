@@ -4,11 +4,23 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Features from "@/components/Features";
 import Team from "@/components/Team";
 import { useTranslation } from 'react-i18next';
+import aboutOurValuesList from "./aboutOurValuesList";
+import aboutOurExperticesList from "./aboutOurExperticesList";
+
 
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
-  //const dataList = [{ id: 1, title: 'Title 1', content: 'content 1'}, { id:2, title: 'title 2', content: 'content 2'} ];
+  const title = 'Unsere Werte';
+  const paragraph = 'Wir sind ihre erste Anlaufstelle... ';
+  const title2 = 'Unser IT-Kernkompetenzen';
+  const paragraph2 = '';
+
+  aboutOurValuesList.forEach((aboutValueEntry => {
+    aboutValueEntry.title = t('about.our-values-titel-' + aboutValueEntry.id);
+    aboutValueEntry.paragraph = t('about.our-values-descrition-' + aboutValueEntry.id);
+  }));
+
   return (
     <>
       <Head>
@@ -20,7 +32,8 @@ const AboutUsPage = () => {
         // description={t('services.firstLine')}
       />
      
-    <Features />
+    <Features featuresData={aboutOurValuesList} title={title} paragraph={paragraph} />
+    <Features featuresData={aboutOurExperticesList} title={title2} paragraph={paragraph2} />
     <Team />
     </>
   );
