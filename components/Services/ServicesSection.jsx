@@ -8,17 +8,17 @@ const ServicesSection = () => {
   const servicesSectionData = [
     {
       id: 1,
-      title: t('services.service-titel-1'),
+      title: t('services.service-title-1'),
       paragraph: t('services.service-description-1')
     },
     {
       id: 2,
-      title: t('services.service-titel-2'),
+      title: t('services.service-title-2'),
       paragraph: t('services.service-description-2') 
     },
     {
       id: 3,
-      title: t('services.service-titel-3'),
+      title: t('services.service-title-3'),
       paragraph: t('services.service-description-3') 
     }
   ];

@@ -50,15 +50,21 @@
   },
   "home": {
     "asenoTitle": "Software Engineering for a Better Health Care",
-    "firstLine": "Our mission is to transform healthcare through innovative and proven software solutions. By using state-of-the-art technologies such as artificial intelligence, big data and cloud computing, we aim to improve the efficiency and quality of healthcare to create sustainable value for patients, medical staff and healthcare facilities."
+    "firstLine": "Our mission is to transform healthcare through innovative and proven software solutions. By using state-of-the-art technologies such as artificial intelligence, big data and cloud computing, we aim to improve the efficiency and quality of healthcare to create sustainable value for patients, medical staff and healthcare facilities.",
+    "identificationQuestion": "Would you like to take your software to the next level?",
+    "identificationFirstLine": "We analyze your existing IT landscape and provide concrete recommendations for action for a strategically sustainable software architecture that enables you to digitize your processes piece by piece and easily integrate innovative, decision-supporting modules."
   },
   "about": {
-    "title" : "Is Your Software Landscape Ready For the Digital Future?",
-    "firstLine": "Unsere Expertise: zukunftssichere und produktunabhängige IT-Lösungen für den Healthcare.",
-    "our-values-titel-1": "Unsere Expertise: zukunftssichere und produktunabhängige IT-Lösungen für den Healthcare.",
-    "our-values-descrition-1": "Sie wünsche sich eine...",
-    "our-values-titel-2": "Unsere IT-Kernkompetenz",
-    "our-values-descrition-2": "Bereits etablierte Software Produkte im Health Care Bereich auf Herz und Niere zu prüfen, ob sie für ihren individuellen Anwendungsfall innovativ und nachhaltig genug sind, ist unsere Leidenschaft. Dabei geht unsere Service weit über die Analyse hinaus: auf Wunsch verbessern wir bereits eingesetzte Produkte, indem wir sie durch geeignete Plug Ins oder Adds On erweitern. So können diese dann auf den besten innovativen technischen Stand in ihre Software-Landschaft integriert werden."
+    "values-title" : "Our Values",
+    "values-firstLine": "We are your first point of contact if you want a future-oriented and flexible software landscape in your healthcare facility.",
+    "value-list-title-2": "We rely on future-oriented and flexible IT solutions",
+    "value-list-descrition-2": "Our mission is to align your IT strategically and intelligently. With software products that will provide you with great added value in the long term. And across the board. Because your software usually doesn't just consist of a product that is super performant. But where, in what context, do you use which product optimally for what. And how easily they interact with each other and can be expanded to include further functionalities. We are the best contact when it comes to designing your IT landscape in a strategically clever and forward-looking manner.",
+    "value-list-title-3": "Agile and transparent working methods",
+    "value-list-descrition-3": "We develop, test and most importantly: we always get your customer feedback! Thanks to our agile and transparent way of working, you can track the progress and quality of our work at any time. Through regular communication and open processes, misunderstandings are minimized, your feedback is quickly integrated and our mutual collaboration is improved. This is guaranteed to lead to a result that will satisfy you to the highest degree.",
+    "value-list-title-1": "Our hearts beat for healthcare",
+    "value-list-descrition-1": "We at ASENO are health-conscious IT experts and our hearts beat for healthcare. We are aware that health is the most valuable asset we have. And with our IT expertise, we want to ensure that more future-proof and flexible IT systems find their way into the healthcare sector. So that better health care can be achieved for all of us.",
+    "competencies-title": "Our IT core competencies",
+    "competencies-firstLine": "We bring exactly the right expertise for future-oriented and flexible software."
 
   },
   "services":{

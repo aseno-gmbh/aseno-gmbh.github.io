@@ -11,14 +11,14 @@ import aboutOurExperticesList from "./aboutOurExperticesList";
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
-  const title = 'Unsere Werte';
-  const paragraph = 'Wir sind ihre erste Anlaufstelle... ';
-  const title2 = 'Unser IT-Kernkompetenzen';
-  const paragraph2 = '';
+  const title = t('about.values-title');
+  const paragraph = t('about.values-firstLine');
+  const title2 =  t('about.competencies-title');
+  const paragraph2 = t('about.competencies-firstLine');
 
   aboutOurValuesList.forEach((aboutValueEntry => {
-    aboutValueEntry.title = t('about.our-values-titel-' + aboutValueEntry.id);
-    aboutValueEntry.paragraph = t('about.our-values-descrition-' + aboutValueEntry.id);
+    aboutValueEntry.title = t('about.value-list-title-' + aboutValueEntry.id);
+    aboutValueEntry.paragraph = t('about.value-list-descrition-' + aboutValueEntry.id);
   }));
 
   return (

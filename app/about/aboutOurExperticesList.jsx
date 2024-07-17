@@ -15,7 +15,7 @@ const aboutOurExperticesList = [
         "Entwicklung und Integration cloudbasierter Unternehmenssoftware. Wir sind Spezialisten und Berater zum Thema Public Cloud, On Premise und Hybrid-Architekturen. In Abhängigkeit der Sicherheitsanforderung bzgl. der Kundendaten analysieren, empfehlen und setzten wir eine performante, sichere und kostengünstige Infrastruktur für unsere Kunden um.",
      },
     {
-      id: 1,
+      id: 2,
       icon: (
         <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
           <path
@@ -30,7 +30,7 @@ const aboutOurExperticesList = [
         "Verarbeitung, Analyse und Visulisierung (Dashboard) von großen Datenmengen (Big Data).",
     },
     {
-      id: 1,
+      id: 3,
       icon: (
         <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
           <path
@@ -45,7 +45,7 @@ const aboutOurExperticesList = [
         "Which products do your customers need and how can you provide new services by using the data you have currently available? ASENO would love to help you discover new opportunities.",
     },
     {
-        id: 1,
+        id: 4,
         icon: (
           <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
             <path
@@ -57,7 +57,7 @@ const aboutOurExperticesList = [
         ),
         title: "Digitalisierung im Healthcare",
         paragraph:
-          "Implementierung von Standards für die Dateninteroperabilität im Gesundheitswesen.",
+          "Implementierung von Standards für die Dateninteroperabilität im Gesundheitswesen: Gematik-Integration, FHIR-Einführung, Adoption von IHE Profilen.",
       }
   ];
   export default aboutOurExperticesList;

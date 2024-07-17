@@ -51,28 +51,33 @@
 
   "home": {
     "asenoTitle": "Software Engineering für ein besseres Gesundheitswesen",
-    "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie künstliche Intelligenz, Big Data und Cloud Computing wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen."
+    "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie künstliche Intelligenz, Big Data und Cloud Computing wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen.",
+    "identificationQuestion": "Sie wollen ihre Software auf das nächste Level heben?",
+    "identificationFirstLine": "Wir analysieren ihre bestehende IT-Landschaft und geben konkrete Handlungsempfehlungen für eine strategisch nachhaltige Software-Architektur, die es ihnen ermöglicht ihre Prozesse Stück für Stück zu digitalisieren und innovative, entscheidungsunterstützende Module leicht zu integrieren."
+
   },
   "about": {
-    "title" : "Ist Ihre jetzige Software-Landschaft bereit für die digitale Zukunft?",
-    "firstLine": "Sie möchten eine erstklassige, Produkt unabhängige Beratung wie ihre Ziel-Software-Landschaft in ihrem Krankenhaus, Reha, Arztpraxis usw. aussehen kann? Und zwar im Rahmen des Buges, welches Sie sich für diese Umstellung vorgenommen haben?",
-    "our-values-titel-1": "Wir setzten auf zukunftssichere und produktunabhängige IT-Lösungen",
-    "our-values-descrition-1": "Wir von Anseno sind absoulte IT-Experten und stellen unsere Expertise dem Gesundheitswesen zur Verfügung, damit mehr zukunftssichere und erstklassige IT-Infrastukturen hier zum Wohle der menschlichen Gesundheit Einzug finden. Wir wollen die moderen Technologien zum Wohle der menschlichen Gesundheit einsetzten.",
-    "our-values-titel-2": "Agile und Transparente Arbeitsweise",
-    "our-values-descrition-2": "Bereits etablierte Software Produkte im Health Care Bereich auf Herz und Niere zu prüfen, ob sie für ihren individuellen Anwendungsfall innovativ und nachhaltig genug sind, ist unsere Leidenschaft. Dabei geht unsere Service weit über die Analyse hinaus: auf Wunsch verbessern wir bereits eingesetzte Produkte, indem wir sie durch geeignete Plug Ins oder Adds On erweitern. So können diese dann auf den besten innovativen technischen Stand in ihre Software-Landschaft integriert werden.",
-     "our-values-titel-3": "Unsere Herzen schlagen für das Gesundheitswesen",
-    "our-values-descrition-3": "Wir von Aseno sind IT-Experten. Aber nicht nur. Wir sind auch sehr gesundheitsbewusst. Unsere Herzen schlagen für das Gesundheitswesen, weil wir die Gesundheit für das wichigste Gut halten, welches wir haben. Und mit unsere Arbeit  wollen wir unseren Teil dazu beitragen, dass eine bessere Gesundheitsvorgung für Alle erzielt werden kann."
+    "values-title" : "Unsere Werte",
+    "values-firstLine": "Wir sind ihre erste Anlaufstelle, wenn Sie sich eine zukunftsweisende und felxible Software-Landschaft in ihrer Gesundheitseinrichtung wünschen.",
+    "value-list-title-2": "Wir setzten auf strategisch kluge und flexible IT-Lösungen",
+    "value-list-descrition-2": "Unsere Mission ist es ihre IT strategisch klug auszurichten. Mit Software-Produkten, die langfristig einen großen Mehrwert für Sie liefern werden. Und zwar übergreifend. Den ihre Software besteht in der Regel nicht nur aus einem Produkt, welches super performant ist. Sondern wo, in welchem Kontext, setzten Sie welches Produkt optimal bei was ein. Und wie einfach interagieren diese miteinander und lassen sich um weitere Funktionalitäten erweitern. Wir sind besste Ansprechpartner, wenn es darum geht ihre IT-Landschaft strategisch klug und zukunftsweisend zu gestalten.",
+    "value-list-title-3": "Agile und Transparente Arbeitsweise",
+    "value-list-descrition-3": "Wir entwickeln, testen und das Wichtigste: wir holen uns immer wieder ihr Kundenfeedback ein! Dank unser agilen und transparenten Arbeitsweise können Sie jederzeit den Fortschritt und die Qualität unsere Arbeit nachvollziehen. Durch regelmäßige Kommunikation und offene Prozesse werden Missverständnisse minimiert, ihr Feedback schnell integriert und unsere gemeinsame Zusammenarbeit verbessert. Dies führt garantiert zu einem Ergebnis, welches Sie im höchsten Maße zufrieden stellen wird.",
+    "value-list-title-1": "Unsere Herzen schlagen für das Gesundheitswesen",
+    "value-list-descrition-1": "Wir von ASENO sind gesundheitsbewusste IT-Experten und unsere Herzen schlagen für das Gesundheitswesen. Uns ist bewusst, das Gesundheit unser höchstes Gut ist, welche wir haben. Und mit unsere IT-Expertise wollen wir dafür sogen, dass mehr zukunftssichere und flexible IT-Systeme im Gesundheitswesen Einzug finden. Damit eine bessere Gesundheitsversorgung für uns Alle erzielt werden kann.",
+    "competencies-title": "Unsere IT-Kernkompetenzen",
+    "competencies-firstLine": "Wir bringen genau die richtige Expertice für zukunftsweisende und felxiblie Software mit."
 
   },
   "services":{
     "title": "Unsere Angebote",
     "firstLine": "Egal ob IT-Beratung, die Verbesserung ihrer jetzigen Software-Landschaft oder die Umsetzung eines neuen Projekts. Wir sind ihr kompetenter Ansprechpartner mit über 20 jähriger IT-Erfahrung.",
-    "service-titel-1" : "Produktunabhängige IT-Beratung",
+    "service-title-1" : "Produktunabhängige IT-Beratung",
     "service-description-1" : "Sie möchten eine erstklassige, produktunabhängige Beratung wie ihre Ziel-Software-Landschaft in ihrem Krankenhaus, Reha, Arztpraxis usw. aussehen kann? Und zwar im Rahmen des Buges den Sie sich für diese Umstellung vorgenommen haben? Wir analysieren ihre bestehende Software-Landschaft und geben konkrete Handlungsempfehlungen für eine strategisch nachhaltige Software-Architektur, die es ihnen ermöglicht ihre Prozesse Stück für Stück zu digitalisieren und innovative, entscheidungsunterstützende Module leicht zu integrieren. Den es gibt nicht das eine Software-Produkt, das alle Anforderungen im Gesundheitssektor abdecken kann. Es ist vielmehr eine Software-Landschaft von unterschiedlichen, heterogenen Produkten, die im Zusammenspiel das Beste auf ihre speziellen Bedürfnisse und Anwendungsfälle erzielen wird. Wir identifizieren die Produkte in ihrer bereits bestehenden Software-Landschaft, die nicht mehr zeitgemäß sind, sich schwer mit anderen Produkten integrieren lassen oder nicht um Innovationen erweitert werden können. Hierfür geben wir eine produktunabhängige Alternativ-Beratung.",
-    "service-titel-2" : "Die strategisch richtige technische Infrastruktur einführen: Cloud-Computing",
+    "service-title-2" : "Die strategisch richtige technische Infrastruktur einführen: Cloud-Computing",
     "service-description-2" : "Viele Organisationen und Abteilungen arbeiten an neuen digitalen Produkten oder planen diese. Die IT-Infrastruktur und die passende Software sind entscheidend für jeden Erfolg. Erfinden Sie das Rad nicht neu! On-Premise-, Cloud- oder Hybrid-Infrastruktur? Enterprise Resource Planning (ERP), Customer Relationship Management (CRM) und viele weitere hervorragende Softwareprodukte stehen Ihnen zur Verfügung und kluge Ingenieure arbeiten jeden Tag hart daran, sie noch besser zu machen. Allerdings gibt es kein Allheilmittel! Welches ist das Beste für Ihr Unternehmen und wie können Sie es aktualisieren, erweitern, migrieren oder von Grund auf neu erstellen? ASENO verfügt über mehr als 15 Jahre Erfahrung in der Entwicklung und Ausführung datenintensiver Anwendungen – sowohl in der privaten als auch in der öffentlichen Cloud. Gerne analysieren wir Ihre Geschäftsanforderungen, teilen Best Practices und helfen Ihnen bei der Einführung der am besten geeigneten Lösung in Ihrem Unternehmen.",
-    "service-title-3": "",
-    "service-description-3": "",
+    "service-title-3": "Analyse, Verbesserung und Integration von Healthcare Produkten",
+    "service-description-3": "Bereits etablierte Software Produkte im Gesundheitswesen auf Herz und Niere zu prüfen, ob sie für ihren individuellen Anwendungsfall innovativ und nachhaltig genug sind, ist unsere Leidenschaft. Dabei geht unsere Service weit über die Analyse hinaus: auf Wunsch verbessern wir bereits eingesetzte Produkte, indem wir sie durch geeignete Plug Ins oder Adds On erweitern. So können diese dann auf den besten innovativen technischen Stand in ihre Software-Landschaft integriert werden.",
     "service-plan-title": "In 5 Schritten zu ihrer strategisch klug ausgerichteten Software-Landschaft",
     "service-plan-firstLine": "Mit diesen einfachen, aber sehr effizienten und agilen 5 Schritten begleiten wir Sie vom Anfang bis zum letzten Schritt.",
     "service-plan-step-1-title": "Schritt 1 - Kostenfreies Kennenlerngespräch",
