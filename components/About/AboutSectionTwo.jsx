@@ -30,7 +30,7 @@ const AboutSectionTwo = () => {
 One of the most important question is which products do your customers need and how can you provide new services by using the data you have currently available?
 Could you combine these data with some additional information to offer even more personalized services according to the known preferences of each customer or do you need to rethink your business for the digital age?
 
-ASENO has more than 15 years of experience on the German IT market and will be happy to answer your questions. Please schedule a free meeting with us!ns. In the past few years, BigData products for the analysis, processing and visualization of internal data have been successfully introduced in the productive environment.
+ASENO has more than 15 years of experience on the German IT market and will be happy to answer your questions. Please schedule a free meeting with us! In the past few years, BigData products for the analysis, processing and visualization of internal data have been successfully introduced in the productive environment.
                 </p>
               </div>
               <div className="mb-9">

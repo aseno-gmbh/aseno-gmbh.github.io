@@ -27,7 +27,7 @@ const teamData = [
       </svg>
     ),
     name: "Mira Edelstein",
-    title: "Head of Bisiness Development",
+    title: "Head of Business Development",
     paragraph:
       "Our vibrant head of Business Development! With a Bioinformatics degree from LMU under her belt, she's our go-to for blending science and business like a pro. Mira's got the knack for turning complex data into golden opportunities, and she does it all with an unstoppable energy. Whether she's decoding genomes or market trends, she's the catalyst that drives our success.",
   },
