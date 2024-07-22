@@ -1,5 +1,3 @@
-// import AboutSectionOne from "@/components/About/AboutSectionOne";
-// import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 // import Blog from "@/components/Blog";
 //import Brands from "@/components/Brands";
 import Team from "@/components/Team";
@@ -20,8 +18,6 @@ export default function Home() {
       <Features />
       {/* <Video />
       <Brands /> */}
-      {/* <AboutSectionOne />
-      <AboutSectionTwo /> */}
       <Team />
       <Testimonials />
        {/*<Pricing />

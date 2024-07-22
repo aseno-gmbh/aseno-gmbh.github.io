@@ -5,14 +5,20 @@ const menuData = [
     path: "/",
     newTab: false,
   },
+  // {
+  //   id: 2,
+  //   title: "About",
+  //   path: "/about",
+  //   newTab: false,
+  // },
   {
-    id: 2,
+    id: 3,
     title: "Services",
-    path: "/about",
+    path: "/services",
     newTab: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Healthcare",
     path: "/healthcare",
     newTab: false,
@@ -23,14 +29,20 @@ const menuData = [
   //   path: "/blog",
   //   newTab: false,
   // },
+  // {
+  //   id: 5,
+  //   title: "Customers",
+  //   path: "/customers",
+  //   newTab: false,
+  // },
   {
-    id: 4,
+    id: 6,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 5,
+    id: 7,
     title: "Career",
     newTab: false,
     submenu: [
