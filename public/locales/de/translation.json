@@ -51,22 +51,22 @@
 
   "home": {
     "asenoTitle": "Software Engineering für ein besseres Gesundheitswesen",
-    "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie künstliche Intelligenz, Big Data und Cloud Computing wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen.",
+    "firstLine": "Unsere Mission ist es, das Gesundheitswesen durch innovative und bewährte Softwarelösungen zu transformieren. Durch den Einsatz von modernsten Technologien wie Cloud Computing, Big Data und künstliche Intelligenz wollen wir die Effizienz und Qualität der Gesundheitsversorgung verbessern, um einen nachhaltigen Mehrwert für Patienten, medizinisches Personal und Gesundheitseinrichtungen zu schaffen.",
     "identificationQuestion": "Sie wollen ihre Software auf das nächste Level heben?",
     "identificationFirstLine": "Wir analysieren ihre bestehende IT-Landschaft und geben konkrete Handlungsempfehlungen für eine strategisch nachhaltige Software-Architektur, die es ihnen ermöglicht ihre Prozesse Stück für Stück zu digitalisieren und innovative, entscheidungsunterstützende Module leicht zu integrieren."
 
   },
   "about": {
-    "values-title" : "Unsere Werte",
-    "values-firstLine": "Wir sind ihre erste Anlaufstelle, wenn Sie sich eine zukunftsweisende und felxible Software-Landschaft in ihrer Gesundheitseinrichtung wünschen.",
-    "value-list-title-2": "Wir setzten auf strategisch kluge und flexible IT-Lösungen",
-    "value-list-descrition-2": "Unsere Mission ist es ihre IT strategisch klug auszurichten. Mit Software-Produkten, die langfristig einen großen Mehrwert für Sie liefern werden. Und zwar übergreifend. Den ihre Software besteht in der Regel nicht nur aus einem Produkt, welches super performant ist. Sondern wo, in welchem Kontext, setzten Sie welches Produkt optimal bei was ein. Und wie einfach interagieren diese miteinander und lassen sich um weitere Funktionalitäten erweitern. Wir sind besste Ansprechpartner, wenn es darum geht ihre IT-Landschaft strategisch klug und zukunftsweisend zu gestalten.",
-    "value-list-title-3": "Agile und Transparente Arbeitsweise",
-    "value-list-descrition-3": "Wir entwickeln, testen und das Wichtigste: wir holen uns immer wieder ihr Kundenfeedback ein! Dank unser agilen und transparenten Arbeitsweise können Sie jederzeit den Fortschritt und die Qualität unsere Arbeit nachvollziehen. Durch regelmäßige Kommunikation und offene Prozesse werden Missverständnisse minimiert, ihr Feedback schnell integriert und unsere gemeinsame Zusammenarbeit verbessert. Dies führt garantiert zu einem Ergebnis, welches Sie im höchsten Maße zufrieden stellen wird.",
-    "value-list-title-1": "Unsere Herzen schlagen für das Gesundheitswesen",
-    "value-list-descrition-1": "Wir von ASENO sind gesundheitsbewusste IT-Experten und unsere Herzen schlagen für das Gesundheitswesen. Uns ist bewusst, das Gesundheit unser höchstes Gut ist, welche wir haben. Und mit unsere IT-Expertise wollen wir dafür sogen, dass mehr zukunftssichere und flexible IT-Systeme im Gesundheitswesen Einzug finden. Damit eine bessere Gesundheitsversorgung für uns Alle erzielt werden kann.",
+    "values-title" : "Unsere Herzen schlagen für das Gesundheitswesen",
+    "values-firstLine": "Wir von ASENO sind gesundheitsbewusste IT-Experten und wollen mit unserer IT-Expertise dafür sogen, dass zukunftssichere und flexible IT-Systeme im Gesundheitswesen Einzug finden. Mit über 20 Jahren Erfahrung in der Softwareentwicklung setzen wir uns dafür ein, dass so langfristig eine bessere Gesundheitsversorgung für uns Alle erzielt werden kann.",
+    "value-list-title-1": "Strategisch kluge und flexible IT-Lösungen",
+    "value-list-descrition-1": "Unsere Mission ist es ihre IT strategisch klug auszurichten. Mit Software-Produkten, die langfristig einen großen Mehrwert für Sie liefern werden. Und zwar übergreifend. Den ihre Software besteht in der Regel nicht nur aus einem Produkt, um all ihre gewünschten Prozesse performant abzubilden und um flexibel auf Neuerungen reagieren zu können. Die Frage ist vielmehr: Wo setzten Sie welches Produkt optimal bei was ein und wie einfach kann diese dann mit anderen Produkten interagieren? Wir von ASENO sind ihre kompetenten Ansprechpartner, wenn es darum geht ihre IT-Landschaft langfristig strategisch klug und zukunftsweisend auszurichten.",
+    "value-list-title-2": "Agile und Transparente Arbeitsweise",
+    "value-list-descrition-2": "Mit über 20 Jahre Erfahrung in der Softwareentwicklung haben wir uns schon lange eine professionell agile und transparente Arbeitsweise angeeignet, die es uns gemeinsam ermöglichen wird ihre Projekte mit einem hohen Maß an Zufriedenheit umzusetzen. Wir entwickeln, testen und das Wichtigste: wir holen uns immer wieder ihr Kundenfeedback ein! So können Sie jederzeit den Fortschritt und die Qualität unsere Arbeit nachvollziehen. Durch regelmäßige Kommunikation und offene Prozesse wird ihr Feedback schnell integriert, unsere gemeinsame Zusammenarbeit verbessert und Missverständnisse minimiert.",
+    "value-list-title-3": "Unsere Herzen schlagen für das Gesundheitswesen",
+    "value-list-descrition-3": "Wir von ASENO sind gesundheitsbewusste IT-Experten und wollen mit unserer IT-Expertise dafür sogen, dass zukunftssichere und flexible IT-Systeme im Gesundheitswesen Einzug finden. Damit langfristig eine bessere Gesundheitsversorgung für uns Alle erzielt werden kann. Denn uns ist völlig bewusst, das Gesundheit unser höchstes Gut ist. Lassen Sie uns gemeinsam innovative und bewerte Technologien zur Verbesserung ihrer Gesundheitseinrichtung nutzen!",
     "competencies-title": "Unsere IT-Kernkompetenzen",
-    "competencies-firstLine": "Wir bringen genau die richtige Expertice für zukunftsweisende und felxiblie Software mit."
+    "competencies-firstLine": "Wir sind ihre erste Anlaufstelle, wenn Sie sich eine zukunftsweisende und flexible Software-Landschaft in ihrer Gesundheitseinrichtung wünschen."
 
   },
   "services":{

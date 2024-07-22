@@ -6,6 +6,7 @@ import Team from "@/components/Team";
 import { useTranslation } from 'react-i18next';
 import aboutOurValuesList from "./aboutOurValuesList";
 import aboutOurExperticesList from "./aboutOurExperticesList";
+import TitleParagrapButtonSection from "@/components/Common/TitleParagraphButtonSection";
 
 
 
@@ -33,6 +34,7 @@ const AboutUsPage = () => {
       />
      
     <Features featuresData={aboutOurValuesList} title={title} paragraph={paragraph} />
+    <TitleParagrapButtonSection title={"Kostenfreies Beratungsgespräch"} paragraph={"Buchen Sie jetzt ihr Gespräch"} linkPath={"/contact"} linkName={"Termin buchen"}/>
     <Features featuresData={aboutOurExperticesList} title={title2} paragraph={paragraph2} />
     <Team />
     </>
