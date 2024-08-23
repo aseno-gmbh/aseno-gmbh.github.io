@@ -13,6 +13,7 @@ const Team = () => {
         <SectionTitle
           title="Team"
           paragraph="Meet our team! Expertise is not merely a possession but a tool wielded with finesse, shaping the digital healthcare future with every innovation they conceive."
+          // paragraph="We at ASENO are responsible and health-conscious IT experts. And we want to use our IT expertise to ensure that new and proven technologies are used for the benefit of humanity."
           center
         />
 

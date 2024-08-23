@@ -12,7 +12,7 @@ const competenciesData = [
         ),
         title: "Infrastructure & Cloud-Computing",
         paragraph:
-          "The IT infrastructure and the appropriate software are crucial for every success. Public, private cloud or both? Do not try to reinvent the wheel! Let ASENO help you introduce the best for your enterprise.",
+          "The IT infrastructure and the appropriate software are crucial for every success. Public, private cloud or both? Depending on your data security requirements, we analyze, recommend and implement a high-performance, secure and cost-effective infrastructure for you. Do not try to reinvent the wheel! Let ASENO help you introduce the best for your enterprise.",
       },
     {
       id: 2,
@@ -43,38 +43,7 @@ const competenciesData = [
       title: "Artificial intelligence AI",
       paragraph:
         "Which products do your customers need and how can you provide new services by using the data you have currently available? ASENO would love to help you discover new opportunities.",
-    },
-    {
-        id: 4,
-        icon: (
-          <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
-            <path d="M2,22V7A1,1 0 0,1 3,6H7V2H17V6H21A1,1 0 0,1 22,7V22H14V17H10V22H2M9,4V10H11V8H13V10H15V4H13V6H11V4H9M4,20H8V17H4V20M4,15H8V12H4V15M16,20H20V17H16V20M16,15H20V12H16V15M10,15H14V12H10V15Z" />
-          </svg>
-        ),
-        title: "Digitalise Healthcare",
-        paragraph:
-          "ASENO is specialized in Healthcare Data Interoperability standards implementation such as Gematik Integration & FHIR Adoption, Adopt IHE profiles. We implement EMR / EHR ( hospital software ) in the hospitals to digitise their workflow. We do medical devices integration with existing EMR / EHR (hospital software).",
-      },
-      {
-        id: 5,
-        icon: (
-          <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
-            <path d="M18,14H14V18H10V14H6V10H10V6H14V10H18M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z" />
-          </svg>
-        ),
-        title: "Implementation Readiness",
-        paragraph: "We analyse Healthcare Software for Implementation Readiness.",
-      },
-      {
-        id: 6,
-        icon: (
-          <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
-            <path d="M13 4H11L10 2H14L13 4M14 8V6H15V5H9V6H10V8C7.24 8 5 10.24 5 13V22H19V13C19 10.24 16.76 8 14 8M16 17H13V20H11V17H8V15H11V12H13V15H16V17Z" />
-          </svg>
-        ),
-        title: "Investment Readiness",
-        paragraph: "We analyse Healthcare Software for Investment Readiness.",
-      }
+    }
   ];
   export default competenciesData;
   
