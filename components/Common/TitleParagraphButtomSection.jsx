@@ -29,7 +29,7 @@ const TitleParagraphButtomSection = ({
                 </p>
                 <p className="mt-10">
                     <Link
-                    target="_blank"
+                    // target="_blank"
                     href={buttomPath}
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                     >
