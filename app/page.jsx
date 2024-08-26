@@ -32,7 +32,7 @@ export default function Home() {
       /> */}
       {/* <Video />
       <Brands /> */}
-      <Team />
+      {/* <Team /> */}
       <Testimonials />
        {/*<Pricing />
       <Blog />

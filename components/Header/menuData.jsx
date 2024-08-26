@@ -17,12 +17,12 @@ const menuData = [
     path: "/services",
     newTab: false,
   },
-  // {
-  //   id: 4,
-  //   title: "About",
-  //   path: "/about",
-  //   newTab: false,
-  // },
+  {
+    id: 4,
+    title: "About Us",
+    path: "/about",
+    newTab: false,
+  },
   {
     id: 5,
     title: "Contact",
@@ -35,23 +35,23 @@ const menuData = [
   //   path: "/blog",
   //   newTab: false,
   // },
-   {
-    id: 7,
-    title: "Career",
-    newTab: false,
-    submenu: [
-      {
-        id: 54,
-        title: "Senior SW Engineer",
-        path: "/blog-senior",
-        newTab: false,
-      },
-      {
-        id: 55,
-        title: "Junior SW Engineer",
-        path: "/blog-junior",
-        newTab: false,
-      },
+  //  {
+  //   id: 7,
+  //   title: "Career",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 54,
+  //       title: "Senior SW Engineer",
+  //       path: "/blog-senior",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 55,
+  //       title: "Junior SW Engineer",
+  //       path: "/blog-junior",
+  //       newTab: false,
+  //     },
   //     // {
   //     //   id: 46,
   //     //   title: "Sign In Page",
@@ -70,7 +70,7 @@ const menuData = [
   //     //   path: "/error",
   //     //   newTab: false,
   //     // },
-     ],
-   },
+  //   ],
+  // },
 ];
 export default menuData;

@@ -8,10 +8,10 @@ import Features from "@/components/Features";
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
          pageName="About"
         // description="Here ist our new About Page :-)"
-      />
+      /> */}
       <HeroAboutUs />
       {/* <Features 
         title={"About Us"} 
