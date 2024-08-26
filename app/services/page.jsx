@@ -7,10 +7,10 @@ import competenciesData from "./competenciesData";
 const ServicesPage = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
          pageName="Services"
          description="ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Use our free webinar to see what we can do for you."
-      />
+      /> */}
       {/* <Features 
         title={"Our IT core competencies and services"} 
         paragraph={"We are your first point of contact if you want a future-oriented and flexible software landscape in your healthcare facility."}
@@ -23,8 +23,9 @@ const ServicesPage = () => {
         buttomPath={"/healthcare"}
         center
       /> */}
-      <ServicesSectionOne />
+     
       <ServicesSectionTwo />
+      <ServicesSectionOne />
     </>
   );
 };
