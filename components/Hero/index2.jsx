@@ -16,13 +16,14 @@ const HeroAboutUs = () => {
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 About Us
                 </h1>
-                <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                At ASENO, we are health-conscious IT experts dedicated to using our two decades of expertise to implement flexible and future-proof IT systems, particularly in the healthcare sector. Our mission is to contribute to long-term improvements in healthcare for everyone because, as we all know, health is our most valuable asset.
-
-But our solutions make a difference not only in healthcare. In industries like banking, insurance, and public authorities, our secure and effective software solutions also ensure greater efficiency and reliability.
-</p>
-<p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-Bring your company's software up to the latest technological standards with ASENO and secure your advantage for tomorrow!
+                <p className="mb-2 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                At ASENO, we are passionate IT professionals with over two decades of experience, dedicated to implementing flexible, future-proof IT systems.
+                </p>
+                <p className="mb-2 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                Our expertise shines in the healthcare sector, where we recognize that health is our most valuable asset. That's why we're committed to protecting and enhancing it through cutting-edge technology. But our reach goes beyond healthcare. We also specialize in ensuring that enterprise software in industries like banking, insurance, and government stays secure, efficient, and future-ready.
+                </p>
+                <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                Let's elevate your company’s software to the latest technological standards with ASENO. Together, we’ll unlock the full potential of your business!
                 </p>
               </div>
             </div>
