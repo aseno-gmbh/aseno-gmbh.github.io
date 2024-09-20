@@ -7,6 +7,7 @@ import TitleParagraphButtomSection from "@/components/Common/TitleParagraphButto
 import FeaturesWithButton from "@/components/Features/featuresWithButton";
 import servicesData from "./servicesData";
 import Testimonials from "@/components/Testimonials";
+import ServicePrinciples from "@/components/Services/ServicePrinciples";
 
 const ServicesPage = () => {
   return (
@@ -15,28 +16,29 @@ const ServicesPage = () => {
          pageName="Services"
          description="ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Use our free webinar to see what we can do for you."
       /> */}
-     {/*<Features 
-        title={"Our Services"} 
-        paragraph={"We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape."}
+      <ServicesSectionTwo />
+      <ServicePrinciples />
+      <Features 
+        title={"Our Service Principles"} 
+        paragraph=""
         featuresData={competenciesData} 
-      />  */}
-       {/* <Testimonials />
+      /> 
       <TitleParagraphButtomSection 
-        title={"Digitalize Healthcare"}
-        paragraph={"ASENO is specialized in Healthcare Platform Development,Healthcare Data Interoperability standards implementation,EHR &EMR integration along with cloud based enterprise software development & integration."}
-        buttomName={"Healthcare Services"}
-        buttomPath={"/healthcare"}
+        title={"We offer independent consulting and product-neutral solutions!"}
+        paragraph={"Whether commercial or open-source software, we only recommend proven products that perfectly match your requirements and integrate seamlessly into your IT landscape. This way, we develop efficient, cost-effective solutions with maximum flexibility and transparency. Our goal: the best and most sustainable solution for your enterprise software. Book your free strategy consultation now and take the first step toward a successful future!"}
+        buttomName={"Book now"}
+        buttomPath={"/contact"}
         center
-      />  */}
-{/*
+      /> 
+
+
       <FeaturesWithButton 
         title={"Our Services"} 
         paragraph={"We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape. Book your free strategy consultation now!"}
         buttomName={"book now"}
         buttomPath={"https://calendly.com/mira-yoga/loewinnengespraech"}
-        featuresData={servicesData} /> */}
-     
-      <ServicesSectionTwo />
+        featuresData={servicesData} />
+    
       <ServicesSectionOne />
     </>
   );
