@@ -17,12 +17,11 @@ const HeroAboutUs = () => {
                 About Us
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                At ASENO, we are health-conscious IT experts dedicated to using our two decades of expertise to implement flexible and future-proof IT systems, particularly in the healthcare sector. Our mission is to contribute to long-term improvements in healthcare for everyone because, as we all know, health is our most valuable asset.
-
-But our solutions make a difference not only in healthcare. In industries like banking, insurance, and public authorities, our secure and effective software solutions also ensure greater efficiency and reliability.
-</p>
-<p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-Bring your company's software up to the latest technological standards with ASENO and secure your advantage for tomorrow!
+                At ASENO, we are passionate IT experts with over two decades of experience, focused on delivering flexible, future-proof IT systems.
+                We are proud to support the healthcare sector, recognizing that health is our most valuable asset. That's why we are committed to enhancing and protecting it with innovative technology. Beyond healthcare, we ensure that enterprise software in industries such as banking, insurance, and government remains secure, efficient, and future-ready.
+                </p>
+                <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                Upgrade your company’s software with ASENO, and together, we’ll unlock the full potential of your business!
                 </p>
               </div>
             </div>

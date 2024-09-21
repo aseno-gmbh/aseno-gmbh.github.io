@@ -18,14 +18,8 @@ const HealthcareHero = () => {
                 Digitize Healthcare
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                ASENO is specialized in&nbsp;
-                    <em>
-                        <u>Healthcare Platform Development</u>,
-                        <u>Healthcare Data Interoperability standards implementation</u>,
-                        <u>EHR</u> &
-                        <u>EMR integration</u>
-                    </em> along with
-                    <em> cloud based enterprise software development & integration</em>.
+                Our mission is to contribute to the long-term improvement of healthcare for everyone. 
+                With ASENO's expertise in healthcare platform development, healthcare data interoperability, EHR and EMR integration, and cloud-based enterprise software solutions, we deliver the best tools to help our clients implement state-of-the-art healthcare solutions.
                 </p>
               </div>
             </div>
