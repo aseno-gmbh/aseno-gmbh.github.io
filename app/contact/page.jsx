@@ -4,10 +4,10 @@ import Contact from "@/components/Contact";
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName="Contact"
         description="Thank you for your interest in ASENO!"
-      />
+      /> */}
 
       <Contact />
     </>
