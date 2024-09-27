@@ -1,8 +1,10 @@
 import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
 import ServicesSectionTwo from "@/components/Services/ServicesSectionTwo";
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import Services from "@/components/Services/Services";
+import servicePrinciplesData from "../../components/Services/ServicePrinciplesData";
+import ServicePrinciples from "@/components/Services/ServicePrinciples";
+import servicesData from "@/components/Services/ServicesData";
 import Features from "@/components/Features";
-import competenciesData from "./competenciesData";
 
 const ServicesPage = () => {
   return (
@@ -11,20 +13,19 @@ const ServicesPage = () => {
          pageName="Services"
          description="ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Use our free webinar to see what we can do for you."
       /> */}
-      {/* <Features 
-        title={"Our IT core competencies and services"} 
-        paragraph={"We are your first point of contact if you want a future-oriented and flexible software landscape in your healthcare facility."}
-        featuresData={competenciesData} 
-      /> */}
-      {/* <TitleParagraphButtomSection 
-        title={"Digitalize Healthcare"}
-        paragraph={"ASENO is specialized in Healthcare Platform Development,Healthcare Data Interoperability standards implementation,EHR &EMR integration along with cloud based enterprise software development & integration."}
-        buttomName={"Healthcare Services"}
-        buttomPath={"/healthcare"}
-        center
-      /> */}
+      <ServicePrinciples 
+        title={"Our Services"} 
+        paragraph="We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape."
+        featuresData={servicePrinciplesData} 
+      />
+      <Services 
+        title={"First Free Consultation"} 
+        paragraph="Discover how our innovative, modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
+        servicesData={[]}
+        //servicesData={servicesData}
+      />
+    
      
-      <ServicesSectionTwo />
       <ServicesSectionOne />
     </>
   );
