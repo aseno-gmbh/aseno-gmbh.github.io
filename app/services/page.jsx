@@ -13,30 +13,19 @@ const ServicesPage = () => {
          pageName="Services"
          description="ASENO helps all businesses not only reach, but exceed their goals. Our experience helps us lay out a strategy that perfectly fits our clients. This collaboration is essential for the successful transition from strategy, to plan, to action. Use our free webinar to see what we can do for you."
       /> */}
-      <Services 
-        title={"Service"} 
+      <ServicePrinciples 
+        title={"Our Services"} 
         paragraph="We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape."
-        servicesData={servicesData} 
-      />
-       {/* <ServicePrinciples 
-        title={"Our Service Principles"} 
-        paragraph=""
-        featuresData={servicePrinciplesData} 
-      /> */}
-        <Features 
-        title={"Our Service Principles"} 
-        paragraph=""
         featuresData={servicePrinciplesData} 
       />
-      {/* <TitleParagraphButtomSection 
-        title={"Digitalize Healthcare"}
-        paragraph={"ASENO is specialized in Healthcare Platform Development,Healthcare Data Interoperability standards implementation,EHR &EMR integration along with cloud based enterprise software development & integration."}
-        buttomName={"Healthcare Services"}
-        buttomPath={"/healthcare"}
-        center
-      /> */}
+      <Services 
+        title={"First Free Consultation"} 
+        paragraph="Discover how our innovative, modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
+        servicesData={[]}
+        //servicesData={servicesData}
+      />
+    
      
-      <ServicesSectionTwo />
       <ServicesSectionOne />
     </>
   );

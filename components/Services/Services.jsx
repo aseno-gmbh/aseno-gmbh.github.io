@@ -18,7 +18,7 @@ const Services = ({
           <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
-            ctaText="Book your first free consultation now – together, we’ll take your IT to the next level!"
+            ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
             ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
             ctaLinkName={"First Free Consultation"}
             center

@@ -21,7 +21,7 @@ export default function Home() {
         featuresData={featuresData} 
       />
       <Testimonials />
-      <TitleParagraphButtomSection 
+      {/* <TitleParagraphButtomSection 
       title={"Our Values"}
       paragraph={"We at ASENO are responsible and health-conscious IT experts. With over 20 years of experience in software development, we want to use our IT expertise to ensure that new and proven technologies are used for the benefit of humanity. For better healthcare, public administration, banking and insurance IT systems."}
       buttomName={"About us"}
@@ -31,7 +31,7 @@ export default function Home() {
       <Video />
       <Brands />
       <Pricing />
-      <Blog />
+      <Blog /> */}
     </>
   );
 }
