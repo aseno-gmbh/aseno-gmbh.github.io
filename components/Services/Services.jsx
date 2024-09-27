@@ -1,23 +1,26 @@
 import SectionTitle from "../Common/SectionTitle";
+import SectionTitleWithCallToAction from "../Common/SectionTitleWithCallToAction";
 import SingleService from "./SingleService";
 
 const Services = ({
   title,
   paragraph,
-  servicesData,
-  buttonName,
-  buttonPath
+  servicesData
 }) => {
   return (
     <>
       <section
         id="services"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        //className="z-10 py-16 md:py-20 lg:py-28"
+        className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
-          <SectionTitle
+          <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
+            ctaText="Book your first free consultation now – together, we’ll take your IT to the next level!"
+            ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
+            ctaLinkName={"First Free Consultation"}
             center
           />
 

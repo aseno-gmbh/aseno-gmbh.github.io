@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SectionTitleWithCallToAction = ({
     title,
     paragraph,
@@ -21,8 +23,17 @@ const SectionTitleWithCallToAction = ({
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph}
           </p>
-          <p className="text-base !leading-relaxed text-body-color md:text-lg">
-            {ctaText}
+          <p className="mt-2 text-base !leading-relaxed text-body-color md:text-lg">
+           <strong> {ctaText} </strong>
+          </p>
+          <p className="mt-10">
+            <Link
+            target="_blank"
+            href={ctaLink}
+            className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+            >
+                {ctaLinkName}
+            </Link>
           </p>
         </div>
       </>

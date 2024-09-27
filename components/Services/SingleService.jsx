@@ -1,5 +1,5 @@
 const SingleService = ({service}) => {
-    const { title, paragraph} = service;
+    const { title, paragraph1, paragraph2, paragraph3} = service;
   
     return (
       <div className="w-full">
@@ -11,7 +11,13 @@ const SingleService = ({service}) => {
             {title}
             </h3>
             <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
-            {paragraph}
+            {paragraph1}
+            </p>
+            <p className="mt-5 pr-[10px] text-base font-medium leading-relaxed text-body-color">
+            {paragraph2}
+            </p>
+            <p className="mt-5 pr-[10px] text-base font-medium leading-relaxed text-body-color">
+            {paragraph3}
             </p>
           <div className="absolute bottom-0 right-0 z-[-1]">
             <svg
