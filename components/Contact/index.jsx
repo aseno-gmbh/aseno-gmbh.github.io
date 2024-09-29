@@ -1,4 +1,5 @@
 import NewsLatterBox from "./NewsLatterBox";
+import Mailto from "react-mailto-link";
 
 const Contact = () => {
   return (
@@ -19,7 +20,11 @@ const Contact = () => {
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
               It is important to us to provide you with everything you need for your success. Fill out the form - we will contact you as soon as possible. 
-              We offer a free Get-to-Know Webinar. Here we will talk about your goals and together we will find out how ASENO can help! We would appreciate if you send us an email to: office AT aseno DOT de.
+              We offer a free Get-to-Know Webinar. Here we will talk about your goals and together we will find out how ASENO can help! 
+              We would appreciate if you send us an email to  &nbsp;
+              <Mailto email="office@aseno.de" obfuscate={true} style={{textDecorationLine:'underline'}}>
+                office@aseno.de
+              </Mailto>.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
