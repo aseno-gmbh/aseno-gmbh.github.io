@@ -5,19 +5,19 @@ import SingleFeature from "../Features/SingleFeature";
 const ServicePrinciples = ({
   title,
   paragraph,
-  featuresData
+  servicePrinciplesData
 }) => {
   return (
     <>
       <section
         id="features"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
+        className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
           <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
-            //ctaText="Book your first free strategy consultation with us now!"
+            ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
             ctaLink="https://outlook.office365.com/owa/calendar/bookingsasenode@aseno.de/bookings/"
             ctaLinkName={"First Free Consultation"}
             center
@@ -33,7 +33,7 @@ const ServicePrinciples = ({
             center
           /> */}
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
+            {servicePrinciplesData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
