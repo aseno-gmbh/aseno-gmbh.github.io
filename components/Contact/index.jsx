@@ -1,6 +1,5 @@
 import Mailto from "react-mailto-link";
 import Link from "next/link";
-import TitleParagraphButtomSection from "@/components/Common/TitleParagraphButtomSection";
 
 const Contact = () => {
   return (
