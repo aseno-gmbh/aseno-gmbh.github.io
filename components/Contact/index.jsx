@@ -41,7 +41,7 @@ const Contact = () => {
               </p>
               <p className="mb-12">
                     <Mailto
-                    email="mailto:office@aseno.de" obfuscate={true}
+                    email="office@aseno.de" obfuscate={true}
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                     >
                         Write a Mail
