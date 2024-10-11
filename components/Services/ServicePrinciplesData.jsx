@@ -12,7 +12,7 @@ const servicePrinciplesData = [
         ),
         title: "Scalable, Secure IT Systems for a Competitive Edge",
         paragraph:
-          "With our focus on cloud computing, big data, and AI, we develop modern, scalable IT systems that meet the highest security standards. This optimizes your business processes, reduces costs, increases efficiency, and maximizes the value of your data. With us by your side, you’ll always stay at the cutting edge of technology – securing a clear competitive advantage.",
+          "With our focus on Cloud Computing, Big Data, and AI, we develop modern, scalable IT systems that meet the highest security standards. This optimizes your business processes, reduces costs, increases efficiency, and maximizes the value of your data. With us by your side, you’ll always stay at the cutting edge of technology – securing a clear competitive advantage.",
       },
     {
       id: 2,
