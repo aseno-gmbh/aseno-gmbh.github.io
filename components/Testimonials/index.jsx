@@ -7,7 +7,7 @@ const testimonialData = [
     name: "Automotive",
     designation: "BMW @Munich",
     content:
-      "BMW AG is a German multinational corporation which produces luxury vehicles and motorcycles. From 2012 to 2014, the architects and developers at ASENO were responsible for the concept, specification, implementation, testing and launch / release of the BMW AG online configurator. The website, based on portal technology, including backend components (CRM, Author and Publisher, Web Analytics) was launched very successfully in several countries: bmw.de, bmw.nl, bmw.at, bmw.co.uk.",
+      "BMW AG is a German multinational corporation which produces luxury vehicles and motorcycles. ASENO architects and developers were responsible for the concept, specification, implementation, testing and launch / release of the BMW AG online configurator. The website, based on portal technology, including backend components (CRM, Author and Publisher, Web Analytics) was launched very successfully in several countries: bmw.de, bmw.nl, bmw.at, bmw.co.uk.",
     // image: "/images/testimonials/auth-01.png",
     // star: 5,
   },
