@@ -17,11 +17,10 @@ const HeroAboutUs = () => {
                 About Us
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                At ASENO, we are passionate IT experts with over two decades of experience, focused on delivering flexible, future-proof IT systems.
-                We are proud to support the healthcare sector, recognizing that health is our most valuable asset. That's why we are committed to enhancing and protecting it with innovative technology. Beyond healthcare, we ensure that enterprise software in industries such as banking, insurance, and government remains secure, efficient, and future-ready.
+                With over 20 years of experience in the IT industry, we have specialized in Public and Private Cloud, Big Data, and Artificial Intelligence. Our team has successfully completed projects for sectors such as banking, insurance, and public administration. However, our true passion lies in the healthcare sector, as we firmly believe that health is our most valuable asset, and through innovative IT solutions, we can create real value.
                 </p>
                 <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Upgrade your company’s software with ASENO, and together, we’ll unlock the full potential of your business!
+                What sets us apart as a company is our approach: We do not aim to maximize short-term profits, but rather to build something valuable in the long run. Following the principle of Shared Value, we focus on creating a network of experts, partners, and clients where everyone involved feels comfortable. For us, success means that everyone in the value chain – from employees and partners to customers – truly benefits.
                 </p>
               </div>
             </div>
