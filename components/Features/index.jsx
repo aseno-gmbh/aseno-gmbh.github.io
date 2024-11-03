@@ -1,4 +1,4 @@
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitleWithCallToAction from "../Common/SectionTitleWithCallToAction";
 import SingleFeature from "./SingleFeature";
 
 const Features = ({
@@ -13,9 +13,12 @@ const Features = ({
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
-          <SectionTitle
+        <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
+            ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
+            ctaLink="https://outlook.office365.com/owa/calendar/bookingsasenode@aseno.de/bookings/"
+            ctaLinkName={"First Free Consultation"}
             center
           />
 

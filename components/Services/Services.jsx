@@ -11,14 +11,14 @@ const Services = ({
     <>
       <section
         id="services"
-        //className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
-        className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
+        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
+        //className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
           <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
-            ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
+            //ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
             ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
             ctaLinkName={"First Free Consultation"}
             center
