@@ -1,8 +1,8 @@
 import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
 import Services from "@/components/Services/Services";
-import servicePrinciplesData from "../../components/Services/ServicePrinciplesData";
 import ServicePrinciples from "@/components/Services/ServicePrinciples";
 import servicesData from "@/components/Services/ServicesData";
+import featuresData from "@/components/Features/featuresData";
 
 const ServicesPage = () => {
   return (
@@ -15,7 +15,7 @@ const ServicesPage = () => {
       <ServicePrinciples
         title={"Our Services"} 
         paragraph="We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape."
-        servicePrinciplesData={servicePrinciplesData}
+        servicePrinciplesData={featuresData}
       />
       <Services 
         title={"First Free Consultation"} 
