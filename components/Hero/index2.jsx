@@ -17,7 +17,7 @@ const HeroAboutUs = () => {
                 About Us
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                With over 20 years of experience in the IT industry, we have specialized in Public and Private Cloud, Big Data, and Artificial Intelligence. Our team has successfully completed projects for sectors such as banking, insurance, and public administration. However, our true passion lies in the healthcare sector, as we firmly believe that health is our most valuable asset, and through innovative IT solutions, we can create real value.
+                With over 20 years of experience in the IT industry, we have specialized in Public and Private Cloud, Big Data, and Artificial Intelligence. Our team has successfully completed projects for sectors such as healthcare, banking, insurance and public services. However, our true passion lies in the healthcare sector, as we firmly believe that health is our most valuable asset, and through innovative IT solutions, we can create real value.
                 </p>
                 <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 What sets us apart as a company is our approach: We do not aim to maximize short-term profits, but rather to build something valuable in the long run. Following the principle of Shared Value, we focus on creating a network of experts, partners, and clients where everyone involved feels comfortable. For us, success means that everyone in the value chain – from employees and partners to customers – truly benefits.
