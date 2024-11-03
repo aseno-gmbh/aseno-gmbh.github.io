@@ -15,7 +15,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Digitalization: Your Key to Success!
+                Digitalization: Your Key to Your Success!
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 Digital transformation brings both opportunities and questions: How do I process data efficiently while ensuring top security? Is a public cloud or an on-premise solution the best choice? And how can I gain valuable insights from my data with AI?

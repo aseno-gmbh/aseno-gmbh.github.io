@@ -42,7 +42,7 @@ const featuresData = [
     ),
     title: "Knowledge Advantage through AI",
     paragraph:
-      "With us by your side, you leverage cutting-edge AI technologies for a sustainable competitive edge. Tailored to your specific needs, we evaluate and implement the most advanced Large Language Models (LLM), integrate them with your business data, and provide flexible solutions—either on-premise or in the cloud. The result: a powerful knowledge base that delivers valuable, customized information to your employees and customers alike—whether as generative text modules or through interactive voice agents.",
+      "With ASENO as your trusted partner, leverage cutting-edge AI technology to gain a sustainable competitive advantage. We customize and integrate the most advanced Large Language Models (LLMs) to meet your unique business needs, enhancing them with your proprietary data. Our solutions are flexible, available on-premises or in the cloud, and designed to empower your team and customers alike. The result? A powerful, tailored knowledge base that delivers valuable insights, whether through dynamic text generation or interactive conversational agents.",
   }
 ];
 export default featuresData;

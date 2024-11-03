@@ -1,12 +1,11 @@
 import Blog from "@/components/Blog";
 import Features from "@/components/Features";
-import servicePrinciplesData from "@/components/Services/ServicePrinciplesData";
-import TitleParagraphButtomSection from "@/components/Common/TitleParagraphButtomSection";
+
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Brands from "@/components/Brands";
-import Video from "@/components/Video";
+
+import featuresData from "@/components/Features/featuresData";
 
 //import { Inter } from "@next/font/google";
 //const inter = Inter({ subsets: ["latin"] });
@@ -16,9 +15,9 @@ export default function Home() {
     <>
       <Hero />
       <Features 
-        title={"Is Your Business Model Ready For the Digital Future?"} 
+        title={"Are You Ready For the Digital Future?"} 
         paragraph={""} 
-        featuresData={servicePrinciplesData} 
+        featuresData={featuresData} 
       />
       <Testimonials />
       {/* <TitleParagraphButtomSection 
