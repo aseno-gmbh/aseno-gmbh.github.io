@@ -21,7 +21,7 @@ const Hero = () => {
                 Digital transformation brings both opportunities and questions: How do I process data efficiently while ensuring top security? Is a public cloud or an on-premise solution the best choice? And how can I gain valuable insights from my data with AI?
                 </p>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                With over 20 years of experience, we develop state-of-the-art IT systems that meet the highest security standards. Our solutions optimize your processes, cut costs, and increase efficiency – giving you a decisive competitive advantage. As independent experts in strategic IT consulting and low-code implementation, we help you find the ideal software solution and guide your business into the digital future.
+                With over 20 years of experience, we develop state-of-the-art IT systems that meet the highest security standards. Our solutions optimize your processes, cut costs, and increase efficiency – giving you a decisive competitive advantage. As vendor independent experts in strategic IT consulting and low-code implementation, we help you find the ideal software solution and guide your business into the digital future.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

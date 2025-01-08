@@ -12,7 +12,7 @@ const featuresData = [
     ),
     title: "Finding the Right Infrastructure",
     paragraph:
-      "We are experts in Private and Public Cloud solutions. Our clients often face the question: Is an on-premise solution the best choice, should infrastructure move to the cloud, or is a hybrid solution better suited to their needs? We analyze your specific requirements and develop a tailored master plan to identify the optimal cloud strategy for you. From strategic planning to a successful migration to the cloud, we guide you every step of the way – for a future-proof, scalable infrastructure.",
+      "We are experts in private and public cloud solutions. Our clients often ask: Is an on-premise solution the right choice? Should we move our data to the cloud? Is it secure enough? Or is a hybrid solution the best option? We analyze your specific requirements and develop a tailored master plan to identify the optimal cloud strategy for you. From strategic planning to a successful migration to the cloud, we guide you every step of the way – for a future-proof, scalable infrastructure that meets the highest security standards.",
   },
   {
     id: 2,

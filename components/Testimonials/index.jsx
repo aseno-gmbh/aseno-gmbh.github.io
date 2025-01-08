@@ -22,7 +22,7 @@ const testimonialData = [
   },
   {
     id: 3,
-    name: "Governance",
+    name: "Public Services",
     designation: "BA @Nuremberg",
     content:
       "The IT system house of the Federal Employment Agency (BA) is responsible for the strategic alignment, further development and security of several internal software products. ASENO is currently advising BA on business-critical infrastructure components, container platforms and cloud-native applications. In the past few years, BigData products for the analysis, processing and visualization of internal data have been successfully introduced in the productive environment.",
