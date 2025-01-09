@@ -19,12 +19,12 @@ const ServicesPage = () => {
       />
       <Services 
         title={"First Free Consultation"} 
-        paragraph="Discover how our innovative, modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
+        paragraph="Discover how our modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
         servicesData={servicesData} 
       />
       {/* <ServicePrinciples
         title={"First Free Consultation"} 
-        paragraph="Discover how our innovative, modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
+        paragraph="Discover how our modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
         servicePrinciplesData={servicePrinciplesData}
       /> */}
     
