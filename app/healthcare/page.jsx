@@ -2,6 +2,9 @@ import HealthcareServices from "@/components/HealthcareServices";
 import HealthcareHero from "@/components/HealthcareHero";
 import Testimonials from "@/components/Testimonials";
 import Head from "next/head";
+import testimonialData from "@/components/Testimonials/TestimonialsData";
+import healthcareTestimonialData from "@/components/Testimonials/HealthcareTestimonialsData";
+
 export default function Healthcare() {
   return (
     <>
@@ -11,7 +14,7 @@ export default function Healthcare() {
       </Head>
       <HealthcareHero />
       <HealthcareServices />
-      <Testimonials />
+      <Testimonials data={healthcareTestimonialData} />
     </>
   );
 }
