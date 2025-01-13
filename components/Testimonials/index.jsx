@@ -3,13 +3,14 @@ import SingleTestimonial from "./SingleTestimonial";
 
 
 const Testimonials = ({
+  title,
   data
 }) => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Some of Our Past and Current Projects"
+          title={title}
           paragraph=""
           center
         />
