@@ -6,6 +6,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 
 import featuresData from "@/components/Features/featuresData";
+import testimonialData from "@/components/Testimonials/TestimonialsData";
 
 //import { Inter } from "@next/font/google";
 //const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +20,9 @@ export default function Home() {
         paragraph={""} 
         featuresData={featuresData} 
       />
-      <Testimonials />
+      <Testimonials 
+        title="Some of Our Past and Current Projects"
+        data={testimonialData} />
       {/* <TitleParagraphButtomSection 
       title={"Our Values"}
       paragraph={"We at ASENO are responsible and health-conscious IT experts. With over 20 years of experience in software development, we want to use our IT expertise to ensure that new and proven technologies are used for the benefit of humanity. For better healthcare, public administration, banking and insurance IT systems."}

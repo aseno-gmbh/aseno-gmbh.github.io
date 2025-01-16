@@ -1,11 +1,12 @@
 import Link from "next/link";
 
+
 const HealthcareHero = () => {
   return (
     <>
       <section
-        id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        id="healthcare"
+        className="relative z-10 overflow-hidden pt-[120px] pb-8 md:pt-[150px] md:pb-[60px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -15,11 +16,13 @@ const HealthcareHero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Digitize Healthcare
+                Digitizing Healthcare
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Our mission is to contribute to the long-term improvement of healthcare for everyone. 
-                With ASENO's expertise in healthcare platform development, healthcare data interoperability, EHR and EMR integration, and cloud-based enterprise software solutions, we deliver the best tools to help our clients implement state-of-the-art healthcare solutions.
+                <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                At ASENO, health is our top priority. We firmly believe that innovative IT solutions can create real value — paving the way for better and more sustainable healthcare systems. With advanced expertise in Public and Private Cloud technologies, Big Data, and Artificial Intelligence, we are committed to driving long-term improvements in healthcare for all.
+                </p>
+                <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                ASENO specializes in healthcare platform development, data interoperability, EHR and EMR integration, and cloud-based enterprise solutions, providing our clients with the tools they need to implement cutting-edge healthcare systems effectively.
                 </p>
               </div>
             </div>
