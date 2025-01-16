@@ -7,7 +7,7 @@ import Image from "next/image";
 const BlogJuniorPage = () => {
   return (
     <>
-      <section className="overflow-hidden pt-[180px] pb-[120px]">
+      <section className="overflow-hidden pt-[150px] pb-[120px] md:pt-[180px] xl:pt-[180px] 2xl:pt-[210px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">

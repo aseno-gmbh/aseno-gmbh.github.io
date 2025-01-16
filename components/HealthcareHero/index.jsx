@@ -6,7 +6,7 @@ const HealthcareHero = () => {
     <>
       <section
         id="healthcare"
-        className="relative z-10 overflow-hidden pt-[120px] pb-8 md:pt-[150px] md:pb-[60px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
+        className="relative z-10 overflow-hidden pt-[150px] pb-16 md:pt-[180px] md:pb-[120px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
