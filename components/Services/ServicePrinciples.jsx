@@ -12,7 +12,8 @@ const ServicePrinciples = ({
       <section
         id="principles"
         //className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
+        //className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
+          className="relative z-10 overflow-hidden pt-[150px] pb-16 md:pt-[180px] md:pb-[120px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
           <SectionTitleWithCallToAction
