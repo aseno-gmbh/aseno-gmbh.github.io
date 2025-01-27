@@ -54,7 +54,7 @@ const BlogSeniorPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        17 April 2024
+                        27 January 2025
                       </p>
                       {/* <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -103,7 +103,7 @@ const BlogSeniorPage = () => {
                 <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                 
                 <strong className="text-primary dark:text-white">
-                      {" "}Big Data{" "}
+                      {" "}Data Engineering {" "}
                     </strong> ( Spark, Kafka, Cassandra, Flink,..) 
               </p>
               <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -114,7 +114,7 @@ const BlogSeniorPage = () => {
               <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
               <strong className="text-primary dark:text-white">
                       {" "}Machine Learning  {" "}
-                    </strong> (TensorFlow, Keras, Pytorch, Sci-Kit, ...) 
+                    </strong> (OpenAI, langchain, LLMs, TensorFlow, Keras, Pytorch, Sci-Kit, ...) 
                 </p>
                 <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                 <strong className="text-primary dark:text-white">
@@ -135,7 +135,7 @@ const BlogSeniorPage = () => {
 You are a software developer at heart, proficient in programming languages like  Java, JVM based languages, Python or C++. Open to dive into new languages if useful.
 You have a strong desire to continuously improve processes and drive the product quality. You love working in a Linux environment and are comfortable with Linux shell scripting.
 
-Experience with DevOps methods or tools, especially for Continuous Integration/Delivery or for automation and orchestration.
+Experience with DevSecOps (MLOps) methods or tools, especially for Continuous Integration/Delivery or for automation and orchestration.
 
 Experiences with Cloud (e.g. AWS, Azure, Google Cloud Platform, Kubernetes, Mesos) and Linux container technologies (Docker and related orchestration frameworks), or keen to learn.
 
