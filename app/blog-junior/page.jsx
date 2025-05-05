@@ -13,7 +13,7 @@ const BlogJuniorPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                Junior Software Engineer
+                (Junior) DevSecOps Engineer
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -54,7 +54,7 @@ const BlogJuniorPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        27 January 2025
+                        2 May 2025
                       </p>
                       {/* <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -101,10 +101,10 @@ const BlogJuniorPage = () => {
                 Who we are looking for?
                   </h4>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  If you’re motivated, persistent and passionate about technology - then you are the right person for this job!
-You will have the opportunity to work and collaborate, share knowledge and experience with many professionals within the company. 
-You will be responsible for the automation of different processes like data collection, processing and publishing the data in our products with a strong focus on its quality. 
-The successful candidates should aim to permanently increase his/her technical expertise and skills. They will have the opportunity to develop excellent interpersonal, organizational and communication skills.
+                  Are you passionate about technology, eager to learn, and ready to grow in the world of DevSecOps?
+If you’re motivated and persistent, this role is a great opportunity to build your expertise and contribute meaningfully from day one. You'll work closely with experienced professionals across the company, gaining hands-on experience in automating processes such as data collection, processing, and publishing — always with a strong focus on quality and security.
+
+As part of your journey, you'll continuously expand your technical skills while also developing valuable interpersonal, organizational, and communication abilities.
                   </p>
                   {/* <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -120,13 +120,74 @@ The successful candidates should aim to permanently increase his/her technical e
                   Requirements
                   </h4>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Hands on experience in any scripting language Basic Knowledge of Web technologies, Good analytical & problem-solving skills, Good command of English and German.
+                  Must-Have:
+                  </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Basic understanding of DevOps principles and CI/CD pipelines
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Experience with scripting languages such as Python, Bash, or Shell
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Familiarity with version control systems, especially Git
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Interest in or basic knowledge of containerization (Docker) and orchestration (Kubernetes is a plus)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Understanding of cloud platforms (preferably AWS, Azure, or GCP)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Willingness to learn about infrastructure-as-code tools like Terraform or CloudFormation
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    A passion for automation, problem-solving, and continuous improvement
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Basic understanding of application and infrastructure security principles
+                    </li>
+                  </ul>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Nice-to-Have:
+                  </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Exposure to monitoring/logging tools (e.g., Prometheus, Grafana, ELK)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Awareness of DevSecOps tools and practices (e.g., static code analysis, dependency scanning)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    First-hand experience with CI/CD tools (e.g., GitHub Actions, GitLab CI, Jenkins)
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Any experience with REST APIs and microservice environments
+                    </li>
+                  </ul>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Soft Skills::
+                  </p>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Eagerness to learn and grow in a collaborative team environment
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Strong communication and interpersonal skills
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Ability to manage time effectively and work independently when needed
+                    </li>
+                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    Curiosity and a proactive mindset toward security and automation
+                    </li>
+                  </ul>
                     {/* <strong className="text-primary dark:text-white">
                       {" "}
                       malesuada{" "}
                     </strong> */}
                     
-                  </p>
+                  
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                   How to apply ? 
                   </h3>
@@ -138,7 +199,7 @@ The successful candidates should aim to permanently increase his/her technical e
                     Last Certificate (Degree or similar)
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                    Knowledge skills: Beginner basic Knowledge (your own projects, theoretical  knowledge),  Advanced - (at least 1-2 years prof. experience), Expert (3-5 years prof. experience)
+                    Knowledge skills (see requirements): Beginner basic Knowledge (your own projects, theoretical  knowledge),  Advanced - (at least 1-2 years prof. experience), Expert (3-5 years prof. experience)
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
                     Which is your IT area of interest?
