@@ -25,7 +25,7 @@ const teamData = [
   },
   {
     id: 4,
-    imagePath: "/images/blog/Joysankar.jpg",
+    imagePath: "/images/blog/Joy.jpg",
     name: "Joysankar Sengupta",
     title: "Head of User Experience Design",
     paragraph:
