@@ -1,7 +1,7 @@
 const teamData = [
   {
     id: 1,
-    imagePath: "/images/blog/Manfred.jpg",
+    imagePath: "/images/team/Manfred.jpg",
     name: "Manfred Erlwein",
     title: "CEO",
     paragraph:
@@ -9,7 +9,7 @@ const teamData = [
    },
   {
     id: 2,
-    imagePath: "/images/blog/Mira.jpg",
+    imagePath: "/images/team/Mira.jpg",
     name: "Mira Edelstein",
     title: "Head of Business Development",
     paragraph:
@@ -17,7 +17,7 @@ const teamData = [
   },
   {
     id: 3,
-    imagePath: "/images/blog/Chandra.jpg",
+    imagePath: "/images/team/Chandra.jpg",
     name: "Chandra Shekhar Sengupta",
     title: "Director of Healthcare Solutions",
     paragraph:
@@ -25,7 +25,7 @@ const teamData = [
   },
   {
     id: 4,
-    imagePath: "/images/blog/Joy.jpg",
+    imagePath: "/images/team/Joy.jpg",
     name: "Joysankar Sengupta",
     title: "Head of User Experience Design",
     paragraph:
@@ -33,7 +33,7 @@ const teamData = [
   },
   {
     id: 5,
-    imagePath: "/images/blog/Bai.jpg",
+    imagePath: "/images/team/Bai.jpg",
     name: "Bai Xia",
     title: "Director of Banking & Insurance",
     paragraph:
@@ -41,7 +41,7 @@ const teamData = [
   },
   {
     id: 6,
-    imagePath: "/images/blog/Valentin.jpg",
+    imagePath: "/images/team/Valentin.jpg",
     name: "Valentin Forst",
     title: "CTO",
     paragraph:
