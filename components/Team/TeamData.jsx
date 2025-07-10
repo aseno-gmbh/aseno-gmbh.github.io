@@ -17,7 +17,7 @@ const teamData = [
   },
   {
     id: 3,
-    imagePath: "/images/team/Chandra.jpg",
+    imagePath: "/images/team/Chandra.png",
     name: "Chandra Shekhar Sengupta",
     title: "Director of Healthcare Solutions",
     paragraph:
