@@ -15,20 +15,28 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Digitalization: Your Key to Your Success!
+                 Nicht jeder IT-Trend ist wichtig
                 </h1>
+                <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-3xl sm:leading-tight md:text-3xl md:leading-tight">
+                  – aber manche sind überlebenswichtig.
+                </h2>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Digital transformation brings both opportunities and questions: How do I process data efficiently while ensuring top security? Is a public cloud or an on-premise solution the best choice? And how can I gain valuable insights from my data with AI?
+              Digitale Transformation verlangt Klarheit: Was ist wirklich relevant für Ihr Business? Wie bleiben Sie wettbewerbsfähig, ohne jedem Hype zu folgen? Und wie nutzen Sie Ihre Daten sinnvoll, statt sich in komplexen Systemen zu verlieren?
+               Viele Unternehmen fürchten, den Anschluss zu verlieren, von der Konkurrenz überholt zu werden oder durch starre Strukturen ausgebremst zu sein. Unsere Antwort: Keine Panik – aber handeln Sie jetzt. 
                 </p>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                With over 20 years of experience, we develop state-of-the-art IT systems that meet the highest security standards. Our solutions optimize your processes, cut costs, and increase efficiency – giving you a decisive competitive advantage. As vendor independent experts in strategic IT consulting and low-code implementation, we help you find the ideal software solution and guide your business into the digital future.
+              Mit über 20 Jahren Erfahrung begleiten wir Unternehmen bei digitalen Entscheidungen, die wirken: Wir beraten strategisch mit echtem Business-Fokus, entwickeln skalierbare Systeme in der Cloud oder On Premises, nutzen Low-Code für schnelle Lösungen und erschließen mit GenAI und datengetriebenen Ansätzen echten Mehrwert.
+              Denn es geht nicht um Tools – es geht um das, was für Sie funktioniert. Wir zeigen Ihnen, was zählt, was überflüssig ist – und geben Ihnen die Kontrolle über Ihre IT und Ihre digitale Zukunft zurück. 
+                </p>
+                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <strong>Bereit für Klarheit statt Chaos? Dann lassen Sie uns reden.</strong>
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/services"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Our Services
+                    Kostenfreie Beratung buchen
                   </Link>
                   {/* <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"
