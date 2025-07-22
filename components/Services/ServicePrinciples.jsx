@@ -1,4 +1,4 @@
-import SectionTitleWithCallToAction from "../Common/SectionTitleWithCallToAction";
+//import SectionTitle from "../Common/SectionTitle";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "../Features/SingleFeature";
 
@@ -16,12 +16,12 @@ const ServicePrinciples = ({
           className="relative z-10 overflow-hidden pt-[150px] pb-16 md:pt-[180px] md:pb-[120px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]"
       >
         <div className="container">
-          <SectionTitleWithCallToAction
+          <SectionTitle
             title= {title}
             paragraph= {paragraph}
             //ctaText="Book your first strategic consultation now – together, we’ll take your IT to the next level!"
-            ctaLink="https://outlook.office365.com/owa/calendar/bookingsasenode@aseno.de/bookings/"
-            ctaLinkName={"First Free Consultation"}
+            //ctaLink="https://outlook.office365.com/owa/calendar/bookingsasenode@aseno.de/bookings/"
+            //ctaLinkName={"First Free Consultation"}
             center
           />
            {/* <SectionTitle

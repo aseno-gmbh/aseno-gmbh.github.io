@@ -11,9 +11,9 @@ const ServicesSectionOne = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
+      {checkIcon}
       </span>
-      {text}
+      <strong> {text} </strong>
     </p>
   );
 
@@ -24,8 +24,8 @@ const ServicesSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 ">
               <SectionTitle
-                title="Dive Deep Into Your Opportunities!"
-                paragraph="With our simple but very efficient five-step plan, we take you from the very beginning to the final step."
+                title="Ihr Weg zur maßgeschneiderten IT-Lösung"
+                paragraph="Wir bringen Ihre IT-Initiative strukturiert, effizient und zukunftssicher ins Ziel. Unser fünfstufiger Ansatz liefert klare Ergebnisse: skalierbar, wartbar und exakt auf Ihre Anforderungen zugeschnitten."
                 mb="44px"
               />
 
@@ -35,31 +35,27 @@ const ServicesSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3  lg:w-full ">
-                    <List text="Step  1   -  Get to Know" />
+                    <List text="Schritt 1 – Strategisches Erstgespräch" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    We offer a free webinar. With an hour, ASENO engineers will figure out what our customers' goals, needs and pain points are. If ASENO can help, we will discuss different options based on our experience. At the end of our webinar, the ASENO engineers will provide initial feedback! 
+                    In einem kostenfreien Strategiegespräch (ca. 1 Stunde) analysieren wir Ihre Ziele, fachlichen Anforderungen und technischen Rahmenbedingungen. Sie erhalten eine erste technische Einschätzung sowie konkrete Vorschläge, wie eine Zusammenarbeit aussehen kann – transparent, lösungsorientiert, ohne Verkaufsdruck.
                     </p>
-                    <List text="Step  2   -  Create a Concept" />
+                    <List text="Schritt 2 – Konzeption & Planung" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    ASENO creates a concept with the aim of providing an offer with a cost estimate.
-Here we offer a day workshop to exactly understand the requirements of our customers.
-Based on the workshop, we create a concept with a business and technical focus. We offer solutions in sizes S, M, L and XL. The customer can start with S and later switch to L or XL.
-The result is a concept! with an existing schedule to complete the project. All costs are transparent and fixed.
+                    In einem eintägigen Workshop erarbeiten wir gemeinsam ein Konzept, welches exakt auf ihre fachlichen Anforderungen zugeschnitten ist. Ziel ist ein präziser Umsetzungsplan inklusive Aufwandsschätzung. Unsere Lösungsarchitektur ist modular – von S bis XL. Kunden können klein starten und jederzeit skalieren.
+                    Ergebnis: Ein ausgereiftes Konzept mit Zeitplan, klar definiertem Scope und transparenten Festkosten.
                     </p>
-                    <List text="Step  3   -  Doing the Right Job" />
+                    <List text="Schritt 3 – Umsetzung mit technischer Präzision" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Developing, Testing & most important - Customer Feedback-Loop!
-ASENO initializes a customer-specific project. Resources, data pipelines and a special team with the required know-how is formed to fulfill the project on time & best quality possible. 
-Agile development. Every 2 weeks ASENO presents the progress of the current work. The customer can submit feedback and change requests. Test & communication with the customer are provided on a weekly basis.
+                    Wir stellen ein dediziertes Projektteam mit dem passenden Technologie-Stack zusammen. Entwicklungsumgebung, Datenflüsse und Schnittstellen werden aufgesetzt.
+                    Wir arbeiten agil mit festen Sprints – alle zwei Wochen liefern wir funktionierende Ergebnisse, präsentieren den Fortschritt und integrieren Kundenfeedback unmittelbar. Änderungswünsche werden kontrolliert aufgenommen und professionell umgesetzt.
                     </p>
-                    <List text="Step  4   -  Hand Over" />
+                    <List text="Schritt 4 – Übergabe des produktionsreifen Systems" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Delivery the final product including documentation and know-how transfer to the customer. Our team takes care that the customer is satisfied with the final product / work.
+                    Am Ende steht ein voll funktionsfähiges, produktionsreifes System – dokumentiert, getestet und übergeben. Der Know-how-Transfer ist Teil unseres Anspruchs: Ihre Teams können das System nachhaltig betreiben, erweitern oder durch uns weiterentwickeln lassen.
                     </p>
-                    <List text="Step  5   -  Keep on Helping" />
+                    <List text="Schritt 5 – Betrieb & Weiterentwicklung" />
                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    We do not leave our customers on its own after we finished the good work. From time to time a software needs to be updated, customers wish more functionalities or changes.
-ASENO offers a support and additional service if needed/ required.
+                   Auch nach dem Go-live bleiben wir Ihr Partner. Systeme müssen gepflegt, erweitert oder an neue Anforderungen angepasst werden. Wir bieten langfristigen Support und gezielte Weiterentwicklungen – genau dann, wenn Sie sie brauchen.
                     </p>
                   </div>
 {/* 

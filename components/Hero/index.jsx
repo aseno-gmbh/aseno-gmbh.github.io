@@ -25,7 +25,7 @@ const Hero = () => {
                Viele Unternehmen fürchten, den Anschluss zu verlieren, von der Konkurrenz überholt zu werden oder durch starre Strukturen ausgebremst zu sein. Unsere Antwort: Keine Panik – aber handeln Sie jetzt. 
                 </p>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-              Mit über 20 Jahren Erfahrung begleiten wir Unternehmen bei digitalen Entscheidungen, die wirken: Wir beraten strategisch mit echtem Business-Fokus, entwickeln skalierbare Systeme in der Cloud oder On Premises, nutzen Low-Code für schnelle Lösungen und erschließen mit GenAI und datengetriebenen Ansätzen echten Mehrwert.
+              Mit über 20 Jahren Erfahrung begleiten wir Unternehmen bei digitalen Entscheidungen, die wirken: Wir beraten strategisch mit echtem Business-Fokus, entwickeln skalierbare Systeme in der <strong>Cloud</strong> oder On Premises, nutzen <strong>Low-Code</strong> für qualitativ hochwertige Lösungen und erschließen mit <strong>GenAI</strong> und datengetriebenen Ansätzen echten Mehrwert.
               Denn es geht nicht um Tools – es geht um das, was für Sie funktioniert. Wir zeigen Ihnen, was zählt, was überflüssig ist – und geben Ihnen die Kontrolle über Ihre IT und Ihre digitale Zukunft zurück. 
                 </p>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
@@ -33,10 +33,11 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/services"
+                    href="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
+                    target="_blank"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Kostenfreie Beratung buchen
+                    Kostenfreies Strategiegespräch
                   </Link>
                   {/* <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"
