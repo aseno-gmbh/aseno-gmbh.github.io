@@ -21,7 +21,7 @@ export default function Home() {
         featuresData={featuresData} 
       />
       <Testimonials 
-        title="Some of Our Past and Current Projects"
+        title="Ausgewählte Kundenprojekte"
         data={testimonialData} />
       {/* <TitleParagraphButtomSection 
       title={"Our Values"}
