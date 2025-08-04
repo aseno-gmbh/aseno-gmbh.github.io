@@ -27,9 +27,9 @@ const AboutPage = () => {
       /> */}
      <Team />
      <TitleParagraphButtomSection 
-      title={"You want to join our Team?"}
-      paragraph={"We are looking for software engineers who are willing to shape the future with us."}
-      buttomName={"How to apply"}
+      title={"Du möchtest Teil unseres Teams werden?"}
+      paragraph={"Wir suchen Software Engineers, die mit uns die Zukunft gestalten wollen."}
+      buttomName={"So bewirbst du dich"}
       buttomPath={"/blog-senior"}
       center
       />

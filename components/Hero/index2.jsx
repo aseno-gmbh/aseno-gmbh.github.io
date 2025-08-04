@@ -14,13 +14,15 @@ const HeroAboutUs = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                About Us
+                Über uns
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                With over 20 years of experience in the IT industry, we have specialized in Public and Private Cloud, Big Data, and Artificial Intelligence. Our team has successfully completed projects for sectors such as healthcare, banking, insurance and public services. However, our true passion lies in the healthcare sector, as we firmly believe that health is our most valuable asset, and through innovative IT solutions, we can create real value.
+                Mit über 20 Jahren Erfahrung in der IT-Branche haben wir uns auf Public & Private Cloud, Big Data und Künstliche Intelligenz spezialisiert. Unser Team hat erfolgreich Projekte für Kunden aus den Bereichen Gesundheitswesen, Banken, Versicherungen und dem öffentlichen Sektor realisiert.Unsere besondere Leidenschaft gilt dem Healthcare-Bereich. Wir sind überzeugt: Gesundheit ist unser wertvollstes Gut – und genau hier kann Technologie echten, messbaren Mehrwert schaffen. Wir setzen IT dort ein, wo sie Menschen wirklich weiterbringt.
                 </p>
                 <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                What sets us apart as a company is our approach: We do not aim to maximize short-term profits, but rather to build something valuable in the long run. Following the principle of Shared Value, we focus on creating a network of experts, partners, and clients where everyone involved feels comfortable. For us, success means that everyone in the value chain – from employees and partners to customers – truly benefits.
+                Was uns auszeichnet, ist unser unternehmerischer Ansatz:
+                Wir verfolgen keine kurzfristigen Gewinnziele, sondern bauen nachhaltig an Lösungen mit Substanz. Nach dem Prinzip des Shared Value schaffen wir ein starkes Netzwerk aus Experten, Partnern und Kunden, in dem sich jeder weiterentwickeln kann – fachlich, menschlich und wirtschaftlich.
+                Unser Verständnis von Erfolg: Wenn alle Beteiligten profitieren – langfristig und auf Augenhöhe.
                 </p>
               </div>
             </div>
