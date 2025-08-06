@@ -17,12 +17,14 @@ const HeroAboutUs = () => {
                 Über uns
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Mit über 20 Jahren Erfahrung in der IT-Branche haben wir uns auf Public & Private Cloud, Big Data und Künstliche Intelligenz spezialisiert. Unser Team hat erfolgreich Projekte für Kunden aus den Bereichen Gesundheitswesen, Banken, Versicherungen und dem öffentlichen Sektor realisiert.Unsere besondere Leidenschaft gilt dem Healthcare-Bereich. Wir sind überzeugt: Gesundheit ist unser wertvollstes Gut – und genau hier kann Technologie echten, messbaren Mehrwert schaffen. Wir setzen IT dort ein, wo sie Menschen wirklich weiterbringt.
+                Mit über 20 Jahren Erfahrung in der IT-Branche sind wir spezialisiert auf  
+                <strong> Public & Private Cloud, Big Data und Künstliche Intelligenz. </strong> 
+                Unser Team hat erfolgreich Projekte für Kunden aus dem Gesundheitswesen, dem Finanz- und Versicherungssektor sowie dem öffentlichen Bereich realisiert.
+
+Unsere besondere Leidenschaft gilt dem Healthcare-Bereich – denn wir sind überzeugt: Gesundheit ist unser wertvollstes Gut. Genau hier kann Technologie echten, messbaren Mehrwert schaffen. Deshalb setzen wir IT gezielt dort ein, wo sie Menschen wirklich weiterbringt.
                 </p>
                 <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Was uns auszeichnet, ist unser unternehmerischer Ansatz:
-                Wir verfolgen keine kurzfristigen Gewinnziele, sondern bauen nachhaltig an Lösungen mit Substanz. Nach dem Prinzip des Shared Value schaffen wir ein starkes Netzwerk aus Experten, Partnern und Kunden, in dem sich jeder weiterentwickeln kann – fachlich, menschlich und wirtschaftlich.
-                Unser Verständnis von Erfolg: Wenn alle Beteiligten profitieren – langfristig und auf Augenhöhe.
+               Was uns auszeichnet, ist unser unternehmerischer Ansatz: Wir verfolgen keine kurzfristigen Gewinnziele, sondern bauen nachhaltige Lösungen mit Substanz. Nach dem Prinzip des Shared Value schaffen wir ein starkes Netzwerk aus Experten, Partnern und Kunden – ein Umfeld, in dem Zusammenarbeit nicht nur Innovation fördert, sondern auch wirtschaftlichen und gesellschaftlichen Mehrwert schafft.
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ const Team = () => {
         <SectionTitleWithSubtitle
           title="Unser Team"
           subtitle="Kompetenz trifft Verantwortung"
-          paragraph="Unser Team besteht aus erfahrenen IT-Architekten, Entwicklern und Strategen, die mit Präzision, Leidenschaft und Weitblick an Lösungen arbeiten, die wirken. Mit jedem Projekt gestalten wir gemeinsam die digitale Zukunft – vor allem im Gesundheitswesen."
+          paragraph="Unser Team besteht aus erfahrenen IT-Architekten, Entwicklern und Strategen, die mit Präzision, Leidenschaft und Weitblick an Lösungen arbeiten, die wirken. Mit jedem Projekt gestalten wir gemeinsam die digitale Zukunft insbesondere im Gesundheitswesen, der Finanzwelt und überall dort, wo Technologie Menschen dient."
           // paragraph="We at ASENO are responsible and health-conscious IT experts. And we want to use our IT expertise to ensure that new and proven technologies are used for the benefit of humanity."
           center
         />
