@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import SectionTitleWithSubtitle from "../Common/SectionTitleWithSubtitle";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -9,7 +10,7 @@ const checkIcon = (
 
 const ServicesSectionOne = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+    <p className="mb-3 flex items-center text-xl font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
       {checkIcon}
       </span>
@@ -18,14 +19,22 @@ const ServicesSectionOne = () => {
   );
 
   return (
-    <section id="services" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
+    <section id="services" className="relative z-10 overflow-hidden pt-[150px] pb-16 md:pt-[180px] md:pb-[120px] xl:pt-[180px] xl:pb-[80px] 2xl:pt-[210px] 2xl:pb-[100px]">
+      <div className="container flex flex-row min-h-screen justify-center items-center">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 ">
+              <SectionTitleWithSubtitle
+                //width="850px"
+                title="Ihr Weg zur klaren, skalierbaren IT-Lösung"
+                subtitle="Komplexität raus. Orientierung rein."
+                paragraph="Viele Unternehmen stehen vor der gleichen Herausforderung:
+                Technologie entwickelt sich schnell – doch was ist wirklich relevant? Was bringt konkreten Nutzen? Und wie trifft man Entscheidungen, ohne sich in Hype, Systembrüchen oder unnötiger Komplexität zu verlieren?"
+                mb="44px"
+              />
               <SectionTitle
-                title="Ihr Weg zur maßgeschneiderten IT-Lösung"
-                paragraph="Wir bringen Ihre IT-Initiative strukturiert, effizient und zukunftssicher ins Ziel. Unser fünfstufiger Ansatz liefert klare Ergebnisse: skalierbar, wartbar und exakt auf Ihre Anforderungen zugeschnitten."
+                title="Genau hier setzen wir an."
+                paragraph="Mit unserem fünfstufigen Vorgehen schaffen wir Klarheit: Wir zeigen Ihnen, was technisch möglich ist – und was sich für Sie tatsächlich lohnt. Ergebnis: eine IT-Lösung, die passt, mitwächst und Sie wieder handlungsfähig macht."
                 mb="44px"
               />
 
@@ -36,26 +45,57 @@ const ServicesSectionOne = () => {
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3  lg:w-full ">
                     <List text="Schritt 1 – Strategisches Erstgespräch" />
-                    <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    In einem kostenfreien Strategiegespräch (ca. 1 Stunde) analysieren wir Ihre Ziele, fachlichen Anforderungen und technischen Rahmenbedingungen. Sie erhalten eine erste technische Einschätzung sowie konkrete Vorschläge, wie eine Zusammenarbeit aussehen kann – transparent, lösungsorientiert, ohne Verkaufsdruck.
+                    <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      Kostenfrei | 1 Stunde | Ohne Verkaufsdruck
+                    </p>
+                    <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Gemeinsam schaffen wir einen klaren Überblick: Welche Ziele verfolgen Sie? Wo stehen Sie aktuell? Und was braucht es wirklich, um den nächsten Schritt zu gehen?
+                    Unsere IT-Experten geben eine erste technische Einschätzung und zeigen realistische Optionen auf.
+                    </p>
+                    <p className="mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Keine Buzzwords, keine Hypes – nur Relevanz.
                     </p>
                     <List text="Schritt 2 – Konzeption & Planung" />
-                    <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    In einem eintägigen Workshop erarbeiten wir gemeinsam ein Konzept, welches exakt auf ihre fachlichen Anforderungen zugeschnitten ist. Ziel ist ein präziser Umsetzungsplan inklusive Aufwandsschätzung. Unsere Lösungsarchitektur ist modular – von S bis XL. Kunden können klein starten und jederzeit skalieren.
-                    Ergebnis: Ein ausgereiftes Konzept mit Zeitplan, klar definiertem Scope und transparenten Festkosten.
+                    <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      1-Tages-Workshop | Ergebnis: Klarheit & Umsetzungsplan
+                    </p>
+                    <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Wir analysieren Ihre Anforderungen im Detail – fachlich wie technisch – und entwickeln daraus ein skalierbares, verständliches Umsetzungskonzept.
+                    Ob Einstiegslösung oder langfristige Architektur: Unsere modularen Systeme sind in Größen von S bis XL planbar und ausbaubar.
+                    </p>
+                    <p className="mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Transparente Festpreise, klarer Scope, realistischer Zeitplan – damit Sie endlich planen können.
                     </p>
                     <List text="Schritt 3 – Umsetzung mit technischer Präzision" />
-                    <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Wir stellen ein dediziertes Projektteam mit dem passenden Technologie-Stack zusammen. Entwicklungsumgebung, Datenflüsse und Schnittstellen werden aufgesetzt.
-                    Wir arbeiten agil mit festen Sprints – alle zwei Wochen liefern wir funktionierende Ergebnisse, präsentieren den Fortschritt und integrieren Kundenfeedback unmittelbar. Änderungswünsche werden kontrolliert aufgenommen und professionell umgesetzt.
+                    <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                     Agil | Transparent | Feedback-orientiert
+                    </p>
+                    <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Wir bauen Ihr System nicht ins Blaue, sondern entlang eines klaren Plans – mit einem dedizierten Projektteam, dem passenden Tech-Stack und zweiwöchigen Sprints.
+                    Sie behalten jederzeit den Überblick, können aktiv steuern und fundierte Entscheidungen treffen. 
+                    </p>
+                    <p className="mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Änderungswünsche? Nehmen wir auf. Komplexität? Reduzieren wir – durch saubere Architekturen und pragmatische Lösungen.
                     </p>
                     <List text="Schritt 4 – Übergabe des produktionsreifen Systems" />
-                    <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Am Ende steht ein voll funktionsfähiges, produktionsreifes System – dokumentiert, getestet und übergeben. Der Know-how-Transfer ist Teil unseres Anspruchs: Ihre Teams können das System nachhaltig betreiben, erweitern oder durch uns weiterentwickeln lassen.
+                    <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      Bereit für den Einsatz – dokumentiert, übergeben, verstanden.
+                    </p>
+                    <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Am Ende erhalten Sie ein voll funktionsfähiges, getestetes System – keine Baustelle, sondern ein stabiler Baustein Ihrer digitalen Strategie.
+                    </p>
+                    <p className="mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Wir kümmern uns um den Know-how-Transfer, sodass Ihre Teams selbstständig weiterarbeiten können – oder wir übernehmen die Weiterentwicklung.
                     </p>
                     <List text="Schritt 5 – Betrieb & Weiterentwicklung" />
-                    <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                   Auch nach dem Go-live bleiben wir Ihr Partner. Systeme müssen gepflegt, erweitert oder an neue Anforderungen angepasst werden. Wir bieten langfristigen Support und gezielte Weiterentwicklungen – genau dann, wenn Sie sie brauchen.
+                    <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                      Langfristiger Partner statt Projekt-Abschluss
+                    </p>
+                    <p className="mb-1 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                   Digitalisierung ist kein Ziel, sondern ein Prozess. Wir bleiben an Ihrer Seite – mit technischer Betreuung, gezielter Weiterentwicklung und konkreten Antworten auf neue Anforderungen.
+                    </p>
+                     <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                   Wenn sich Ihr Business verändert, wächst Ihre IT einfach mit. Ohne Chaos. Ohne Reibungsverluste.
                     </p>
                   </div>
 {/* 
@@ -65,6 +105,15 @@ const ServicesSectionOne = () => {
                     <List text="Developer friendly" />
                   </div> */}
                 </div>
+              </div>
+              <div className="mt-4">
+               <SectionTitleWithSubtitle
+                width="850px"
+                title="Ihr Vorteil:"
+                subtitle="Wir geben Ihnen die Kontrolle zurück – über Ihre IT, Ihre Daten und Ihre digitale Zukunft."
+                paragraph="Buchen Sie jetzt Ihr erstes kostenfreies Strategiegespräch – und bringen Sie Struktur in Ihre digitale Roadmap."
+                mb="44px"
+              />
               </div>
             </div>
 

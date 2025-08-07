@@ -17,7 +17,7 @@ const Features = ({
             title= {title}
             paragraph= {paragraph}
             ctaText=""
-            ctaLink="/services"
+            ctaLink="/strategy"
             ctaLinkName={"IT-Strategie & Lösungen im Überblick"}
             center
           />
