@@ -11,7 +11,7 @@ const healthcareServicesData = [
       "We provide services for adapting FHIR and connection to Gematik.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
         <path d="M3,1C1.89,1 1,1.89 1,3V14C1,15.11 1.89,16 3,16C4.33,16 7,16 7,16C7,16 7,18.67 7,20C7,21.11 7.89,22 9,22H20C21.11,22 22,21.11 22,20V9C22,7.89 21.11,7 20,7C18.67,7 16,7 16,7C16,7 16,4.33 16,3C16,1.89 15.11,1 14,1H3M3,3H14C14,4.33 14,7 14,7H9C7.89,7 7,7.89 7,9V14C7,14 4.33,14 3,14V3M9,9H14V14H9V9M16,9C16,9 18.67,9 20,9V20H9C9,18.67 9,16 9,16H14C15.11,16 16,15.11 16,14V9Z" />
@@ -21,7 +21,7 @@ const healthcareServicesData = [
     paragraph: "We help healthcare providers to adopt IHE profiles.",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg height="40" width="40"viewBox="0 0 40 40" className="fill-current">
         <path
@@ -36,7 +36,7 @@ const healthcareServicesData = [
       "We do medical devices integration with existing EMR / EHR (hospital software).",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
         <path d="M2,22V7A1,1 0 0,1 3,6H7V2H17V6H21A1,1 0 0,1 22,7V22H14V17H10V22H2M9,4V10H11V8H13V10H15V4H13V6H11V4H9M4,20H8V17H4V20M4,15H8V12H4V15M16,20H20V17H16V20M16,15H20V12H16V15M10,15H14V12H10V15Z" />
@@ -47,7 +47,7 @@ const healthcareServicesData = [
       "We implement EMR / EHR ( hospital software ) in the hospitals to digitise their workflow.",
   },
   {
-    id: 1,
+    id: 5,
     icon: (
       <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
         <path d="M18,14H14V18H10V14H6V10H10V6H14V10H18M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z" />
@@ -57,7 +57,7 @@ const healthcareServicesData = [
     paragraph: "We analyse Healthcare Software for Implementation Readiness.",
   },
   {
-    id: 1,
+    id: 6,
     icon: (
       <svg height="40" width="40"viewBox="0 0 25 25" className="fill-current">
         <path d="M13 4H11L10 2H14L13 4M14 8V6H15V5H9V6H10V8C7.24 8 5 10.24 5 13V22H19V13C19 10.24 16.76 8 14 8M16 17H13V20H11V17H8V15H11V12H13V15H16V17Z" />
