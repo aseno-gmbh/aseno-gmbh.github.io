@@ -1,4 +1,3 @@
-import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
 import Services from "@/components/Services/Services";
 import ServicePrinciples from "@/components/Services/ServicePrinciples";
 import servicesData from "@/components/Services/ServicesData";
@@ -13,13 +12,14 @@ const ServicesPage = () => {
       /> */}
 
       <ServicePrinciples
-        title={"IT Strategie und Lösungen im Überblick"} 
-        paragraph="Entdecken Sie, wie unsere modularen Lösungen und unser Low-Code-Ansatz Ihre Digitalisierung beschleunigen – effizient, flexibel und exakt auf Ihre Anforderungen zugeschnitten. Als unabhängige Experten für strategische IT-Beratung und Low-Code-Implementierung unterstützen wir Sie dabei, Prozesse zu digitalisieren und Ihre IT zukunftssicher aufzustellen."
+        title={"Unsere IT Schwerpunkte und Leistungen im Überblick"} 
+        paragraph="Wir begleiten Sie in jeder Phase Ihrer IT-Entwicklung – von der ersten Idee über praxistaugliche Prototypen und schlanke Einstiegslösungen bis hin zu einem produktionsreifen, skalierbaren System, das langfristig zukunftsfähig bleibt."
+        //paragraph="Entdecken Sie, wie unsere modularen Lösungen und unser Low-Code-Ansatz Ihre Digitalisierung beschleunigen – effizient, flexibel und exakt auf Ihre Anforderungen zugeschnitten. Als unabhängige Experten für strategische IT-Beratung und Low-Code-Implementierung unterstützen wir Sie dabei, Prozesse zu digitalisieren und Ihre IT zukunftssicher aufzustellen."
         servicePrinciplesData={featuresData}
       />
       <Services 
-        title={"Kostenfreies Strategiegespräch"} 
-        paragraph="Wir begleiten Sie in jeder Phase Ihrer IT-Entwicklung – von der ersten Idee über praxistaugliche Prototypen und schlanke Einstiegslösungen bis hin zu einem produktionsreifen, skalierbaren System, das langfristig zukunftsfähig bleibt."
+        title={"Sie wollen keine Insellösungen mehr?"} 
+        //paragraph="Lassen Sie uns strukturiert starten."
         servicesData={servicesData} 
       />
       {/* <ServicePrinciples

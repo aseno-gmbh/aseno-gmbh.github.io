@@ -1,6 +1,7 @@
-import Image from "next/image";
+import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 import SectionTitleWithSubtitle from "../Common/SectionTitleWithSubtitle";
+import SectionTitleWithSubtitleAndCTA from "../Common/SectionTitleWithSubtitleAndCTA";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -52,8 +53,17 @@ const ServicesSectionOne = () => {
                     Gemeinsam schaffen wir einen klaren Überblick: Welche Ziele verfolgen Sie? Wo stehen Sie aktuell? Und was braucht es wirklich, um den nächsten Schritt zu gehen?
                     Unsere IT-Experten geben eine erste technische Einschätzung und zeigen realistische Optionen auf.
                     </p>
-                    <p className="mb-6 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                     Keine Buzzwords, keine Hypes – nur Relevanz.
+                    </p>
+                    <p className="mb-10">
+                      <Link
+                      target="_blank"
+                      href="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
+                      className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                      >
+                          Erstgespräch buchen
+                      </Link>
                     </p>
                     <List text="Schritt 2 – Konzeption & Planung" />
                     <p className="mb-1 text-base font-bold leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -107,11 +117,13 @@ const ServicesSectionOne = () => {
                 </div>
               </div>
               <div className="mt-4">
-               <SectionTitleWithSubtitle
-                width="850px"
-                title="Ihr Vorteil:"
+               <SectionTitleWithSubtitleAndCTA
+                //width="850px"
+                title="Ihr Vorteil"
                 subtitle="Wir geben Ihnen die Kontrolle zurück – über Ihre IT, Ihre Daten und Ihre digitale Zukunft."
                 paragraph="Buchen Sie jetzt Ihr erstes kostenfreies Strategiegespräch – und bringen Sie Struktur in Ihre digitale Roadmap."
+                ctaLinkName="Erstgespräch buchen"
+                ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
                 mb="44px"
               />
               </div>

@@ -19,7 +19,7 @@ const Contact = () => {
               Gemeinsam bringen wir Ihre IT aufs nächste Level
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-              Ob Sie gerade erst mit einer Idee starten oder bereits ein ausgereiftes Konzept haben – wir unterstützen Sie mit herstellerunabhängiger, strategischer IT-Beratung und helfen Ihnen dabei, Ihre IT-Landschaft nachhaltig zu optimieren.
+              Ob Sie gerade erst mit einer Idee starten oder bereits ein ausgereiftes Konzept haben – wir unterstützen Sie mit strategischer IT-Beratung ohne Herstellerbrille und helfen Ihnen dabei, Ihre IT-Landschaft nachhaltig zu optimieren.
               </p>
               <p className="mb-12">
                 <Link

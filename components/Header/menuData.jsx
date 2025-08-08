@@ -7,20 +7,20 @@ const menuData = [
   },
    {
     id: 2,
-    title: "IT-Strategie",
+    title: "IT-Strategie & Umsetzung",
     path: "/strategy",
     newTab: false,
   },
   {
     id: 3,
-    title: "Healthcare",
-    path: "/healthcare",
+    title: "Leistungen",
+    path: "/services",
     newTab: false,
   },
-  {
+    {
     id: 4,
-    title: "Services",
-    path: "/services",
+    title: "Healthcare",
+    path: "/healthcare",
     newTab: false,
   },
   {

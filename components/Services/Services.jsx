@@ -12,15 +12,15 @@ const Services = ({
       <section
         id="services"
         //className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
-        className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
+        className="bg-primary/[.03] py-14 md:py-16 lg:py-20"
       >
         <div className="container">
           <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
-            ctaText="Starten Sie jetzt mit einem kostenfreien Strategiegespräch – wir machen Ihre IT zukunftssicher."
+            ctaText="Lassen Sie uns strukturiert starten."
             ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
-            ctaLinkName={"Kostenfreies Strategiegespräch"}
+            ctaLinkName={"Strategiegespräch buchen"}
             center
           />
 
