@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="flex flex-row min-h-screen justify-center items-center">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
@@ -27,7 +27,7 @@ const Contact = () => {
                 href="https://outlook.office365.com/owa/calendar/bookingsasenode@aseno.de/bookings/"
                 className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                 >
-                Kostenfreies Strategiegespräch
+                Erstgespräch buchen
                 </Link>
               </p>
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
