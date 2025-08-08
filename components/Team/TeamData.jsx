@@ -5,7 +5,7 @@ const teamData = [
     name: "Manfred Erlwein",
     title: "CEO & Head of Finance",
     paragraph:
-      "Manfred verbindet analytische Präzision mit einem feinen Gespür für Menschen und Märkte. Mit seinem ungewöhnlichen Doppelstudium in Mathematik und Psychologie führt er das Unternehmen mit Weitblick, Erfahrung und einem tiefen Verständnis für Finanzlogik und Zahlen. Strategisch, sicherheitsorientiert und geschäftstüchtig trifft er Entscheidungen mit Substanz – und schafft so die Grundlage für nachhaltiges Wachstum.",
+      "Manfred verbindet analytische Präzision mit einem feinen Gespür für Menschen und Märkte. Mit seinem ungewöhnlichen Dreifachstudium in Physik, Mathematik und Psychologie führt er das Unternehmen mit Weitblick, Erfahrung und einem tiefen Verständnis für Finanzlogik und Zahlen. Strategisch, sicherheitsorientiert und geschäftstüchtig trifft er Entscheidungen mit Substanz – und schafft so die Grundlage für nachhaltiges Wachstum.",
    },
   {
     id: 2,
@@ -29,7 +29,7 @@ const teamData = [
     name: "Joysankar Sengupta",
     title: "Head of User Experience & Interface Design",
     paragraph:
-      "Wo Technologie auf Nutzergefühl trifft, beginnt Joys Stärke. Mit einem Informatik-Studium und einer fundierten UX-Design-Ausbildung konzipiert er Interfaces, die komplexe Technologien intuitiv nutzbar machen. Nutzerzentriert, detailverliebt und lösungsorientiert sorgt er dafür, dass unsere digitalen Produkte nicht nur funktionieren – sondern begeistern.",
+      "Wo Technologie auf Nutzergefühl trifft, beginnt Joys Stärke. Mit einem Master in Informatik und einer fundierten UX-Design-Ausbildung konzipiert er Interfaces, die komplexe Technologien intuitiv nutzbar machen. Nutzerzentriert, detailverliebt und lösungsorientiert sorgt er dafür, dass unsere digitalen Produkte nicht nur funktionieren – sondern begeistern.",
   },
   {
     id: 5,
@@ -43,9 +43,9 @@ const teamData = [
     id: 6,
     imagePath: "/images/team/Valentin.jpg",
     name: "Valentin Forst",
-    title: "CTO & Co-Founder",
+    title: "CTO & Head of Innovation",
     paragraph:
-      "Visionär, Technikexperte und Macher. Mit einem Master in Informatik und tiefem Verständnis für AI, Big Data und Cloud Computing bringt Valentin technologische Exzellenz mit unternehmerischer Denkweise zusammen. Er treibt Innovationen mit Mut voran, spricht unbequeme Wahrheiten offen an – und sorgt dafür, dass wir technologisch immer einen Schritt voraus sind.",
+      "Visionär, Technikexperte und Macher. Mit einem Informatik-Studium und tiefem Verständnis für AI, Big Data und Cloud Computing bringt Valentin technologische Exzellenz mit unternehmerischer Denkweise zusammen. Er treibt Innovationen mit Mut voran, spricht unbequeme Wahrheiten offen an – und sorgt dafür, dass wir technologisch immer einen Schritt voraus sind.",
   }
 
 ];

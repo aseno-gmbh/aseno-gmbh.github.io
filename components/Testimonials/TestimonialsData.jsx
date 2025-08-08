@@ -19,10 +19,10 @@ const testimonialData = [
     },
     {
       id: 3,
-      name: "Bundesagentur für Arbeit – Beratung zu Cloud, Plattform & Big Data",
+      name: "Bundesagentur für Arbeit – Beratung zu Cloud und Generativer KI",
       designation: "Nürnberg, Öffentlicher Sektor",
       content:
-        "ASENO berät das IT-Systemhaus der Bundesagentur für Arbeit (BA) bei strategischen Infrastrukturfragen sowie bei der Weiterentwicklung containerbasierter und cloud-nativer Anwendungen. In den letzten Jahren wurden gemeinsam mehrere Big-Data-Produkte zur Analyse, Verarbeitung und Visualisierung interner Daten erfolgreich in die Produktionsumgebung überführt.",
+        "ASENO unterstützt das IT-Systemhaus der Bundesagentur für Arbeit (BA) bei der strategischen Einführung und Weiterentwicklung von Generativen KI-Lösungen. Dank unserer umfassenden Expertise in Cloud-Technologien, Low-Code-Entwicklung und GenAI begleiten wir die BA bei der Modernisierung ihrer IT-Landschaft. In den vergangenen Jahren haben wir sowohl die On-Premises-Infrastruktur als auch die Anbindung an verschiedene Cloud-Plattformen schrittweise ausgebaut. Dadurch konnten mehrere GenAI-Systeme erfolgreich in den produktiven Betrieb überführt werden – leistungsfähig, sicher und zukunftsorientiert.",
       // image: "/images/testimonials/auth-03.png",
       // star: 5,
     },
