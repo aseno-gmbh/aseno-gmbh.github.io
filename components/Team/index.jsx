@@ -1,4 +1,4 @@
-import SectionTitle from "@/components/Common/SectionTitle";
+import SectionTitleWithSubtitle from "../Common/SectionTitleWithSubtitle";
 import teamData from "./TeamData";
 import SingleMember from "./SingleMember";
 
@@ -10,9 +10,10 @@ const Team = () => {
       className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
     >
       <div className="container">
-        <SectionTitle
-          title="Team"
-          paragraph="Meet our team! Expertise is not merely a possession but a tool wielded with finesse, shaping the digital healthcare future with every innovation they conceive."
+        <SectionTitleWithSubtitle
+          title="Unser Team"
+          subtitle="Kompetenz trifft Verantwortung"
+          paragraph="Unser Team besteht aus erfahrenen IT-Architekten, Entwicklern und Strategen, die mit Präzision, Leidenschaft und Weitblick an Lösungen arbeiten, die wirken. Mit jedem Projekt gestalten wir gemeinsam die digitale Zukunft insbesondere im Gesundheitswesen, der Finanzwelt und überall dort, wo Technologie Menschen dient."
           // paragraph="We at ASENO are responsible and health-conscious IT experts. And we want to use our IT expertise to ensure that new and proven technologies are used for the benefit of humanity."
           center
         />

@@ -16,12 +16,12 @@ export default function Home() {
     <>
       <Hero />
       <Features 
-        title={"Are You Ready For the Digital Future?"} 
-        paragraph={""} 
+        title={"Von der Idee bis zum produktionsreifen System"} 
+        paragraph={"Wir begleiten Sie in jeder Phase Ihrer IT-Entwicklung – von der ersten Idee über praxistaugliche Prototypen und schlanke Einstiegslösungen bis hin zu einem produktionsreifen, skalierbaren System, das langfristig zukunftsfähig bleibt."} 
         featuresData={featuresData} 
       />
       <Testimonials 
-        title="Some of Our Past and Current Projects"
+        title="Ausgewählte Kundenprojekte"
         data={testimonialData} />
       {/* <TitleParagraphButtomSection 
       title={"Our Values"}

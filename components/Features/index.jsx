@@ -16,9 +16,9 @@ const Features = ({
         <SectionTitleWithCallToAction
             title= {title}
             paragraph= {paragraph}
-            ctaText="Start your Digital Transformation with us and book your first strategic consultation now – together, we’ll take your IT to the next level!"
-            ctaLink="https://outlook.office365.com/book/bookingsasenode@aseno.de/"
-            ctaLinkName={"First Free Consultation"}
+            ctaText=""
+            ctaLink="/strategy"
+            ctaLinkName={"Von der Idee zur Lösung"}
             center
           />
 

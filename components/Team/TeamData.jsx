@@ -3,17 +3,17 @@ const teamData = [
     id: 1,
     imagePath: "/images/team/Manfred.jpg",
     name: "Manfred Erlwein",
-    title: "CEO",
+    title: "CEO & Head of Finance",
     paragraph:
-      "The CEO who defies conventions. With a background in both physics and psychology, Manfred has a knack for understanding the laws of the universe and the quirks of the human mind. Mixing quantum equations with mind-bending insights, Manfred doesn't just lead—he innovates. With a knack for turning complex problems into simple solutions, he's taking tech—and our team—to infinity and beyond!",
+      "Manfred verbindet analytische Präzision mit einem feinen Gespür für Menschen und Märkte. Mit seinem ungewöhnlichen Dreifachstudium in Physik, Mathematik und Psychologie führt er das Unternehmen mit Weitblick, Erfahrung und einem tiefen Verständnis für Finanzlogik und Zahlen. Strategisch, sicherheitsorientiert und geschäftstüchtig trifft er Entscheidungen mit Substanz – und schafft so die Grundlage für nachhaltiges Wachstum.",
    },
   {
     id: 2,
     imagePath: "/images/team/Mira.jpg",
     name: "Mira Edelstein",
-    title: "Head of Business Development",
+    title: "Head of Business Development & Communications",
     paragraph:
-      "Our vibrant head of Business Development! With a Bioinformatics degree from LMU under her belt, she's our go-to for blending science and business like a pro. Mira's got the knack for turning complex data into golden opportunities, and she does it all with an unstoppable energy. Whether she's decoding genomes or market trends, she's the catalyst that drives our success.",
+      "Lebendig, klar und voller Tatendrang. Mira ist die kommunikative Brücke zwischen Technologie, Markt und Mensch. Mit ihrem wissenschaftlich-technischen Hintergrund in Bioinformatik versteht sie komplexe Zusammenhänge – und übersetzt sie in starke Strategien und Kommunikation. Sie betreut unser IT-Expert:innen-Netzwerk, baut neue Partnerschaften auf und bringt mit kreativer Kommunikation Bewegung ins Business.",
   },
   {
     id: 3,
@@ -21,31 +21,31 @@ const teamData = [
     name: "Chandra Shekhar Sengupta",
     title: "Director of Healthcare Solutions",
     paragraph:
-      "Our globe-trotting healthcare guru! As the head of Healthcare, Chandra brings a unique blend of tech-savviness and medical know-how to the team. With a background in Computer Science, Chandra has integrated cutting-edge healthcare systems around the world. Whether it’s optimizing patient care or implementing innovative health solutions, Chandra’s got it covered. ",
+      "Gesundheitswesen trifft Hightech. Mit einem Hintergrund in Computer Science ist Chandra unser Healthcare-Spezialist mit internationaler Projekterfahrung und tiefer Branchenkenntnis. Als sympathischer Netzwerker verbindet er medizinische Anforderungen mit technologischer Innovation – und treibt als echter Workaholic jeden Tag neue Lösungen für ein smarteres, effizienteres Gesundheitswesen voran.",
   },
   {
     id: 4,
     imagePath: "/images/team/Joy.jpg",
     name: "Joysankar Sengupta",
-    title: "Head of User Experience Design",
+    title: "Head of User Experience & Interface Design",
     paragraph:
-      "With a background in Computer Science, Joysankar has mastered the art of crafting UX systems that delight users worldwide. Whether he's crafting seamless user interfaces or sprinkling a bit of design magic, he always ensures our users' joy is front and center. Joysankar's blend of technical prowess and creative flair makes him an invaluable asset to our crew!",
+      "Wo Technologie auf Nutzergefühl trifft, beginnt Joys Stärke. Mit einem Master in Informatik und einer fundierten UX-Design-Ausbildung konzipiert er Interfaces, die komplexe Technologien intuitiv nutzbar machen. Nutzerzentriert, detailverliebt und lösungsorientiert sorgt er dafür, dass unsere digitalen Produkte nicht nur funktionieren – sondern begeistern.",
   },
   {
     id: 5,
     imagePath: "/images/team/Bai.jpg",
     name: "Bai Xia",
-    title: "Director of Banking & Insurance",
+    title: "Director of Banking & Insurance Solutions",
     paragraph:
-      "With a Business Informatics background and expertise in Big Data, Data Processing, Monitoring complex systems, and an insider’s understanding of BaFin regulations, Bai combines strategic know-how with tech-driven precision. Guiding our financial innovations, he bridges complex data landscapes with industry-leading solutions, ensuring we stay at the forefront in tech, efficiency, and impact.",
+      "Kritisch, strukturiert und technisch exzellent – Bai ist unser Spezialist für datengetriebene IT-Lösungen im Finanz- und Versicherungsbereich. Mit fundierter Ausbildung in Wirtschaftsinformatik, tiefem Verständnis regulatorischer Anforderungen (z. B. BaFin) und starker technischer Kompetenz entwickelt er Lösungen, die effizient, sicher und zukunftsfähig sind.",
   },
   {
     id: 6,
     imagePath: "/images/team/Valentin.jpg",
     name: "Valentin Forst",
-    title: "CTO",
+    title: "CTO & Head of Innovation",
     paragraph:
-      "Armed with an Informatics degree, heart for digital Healthcare and a brain wired for Big Data, AI, and Cloud Computing, Valentin transforms complex tech into valuable solutions. When not conjuring tech magic, he is probably decoding the next big thing in tech, ensuring our company stays years ahead of the curve.",
+      "Visionär, Technikexperte und Macher. Mit einem Informatik-Studium und tiefem Verständnis für AI, Big Data und Cloud Computing bringt Valentin technologische Exzellenz mit unternehmerischer Denkweise zusammen. Er treibt Innovationen mit Mut voran, spricht unbequeme Wahrheiten offen an – und sorgt dafür, dass wir technologisch immer einen Schritt voraus sind.",
   }
 
 ];

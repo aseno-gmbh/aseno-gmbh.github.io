@@ -11,8 +11,9 @@ const featuresData = [
       </svg>
     ),
     title: "Public, Private & Hybrid Cloud",
+    title2: "Die richtige Infrastruktur für Ihr Business",
     paragraph:
-      "The right infrastructure enables seamless operations, faster decision-making, robust cyber threat protection, and the flexibility to adapt to market changes. But is an on-premise solution the best choice, should you move to the cloud, or is a hybrid approach the right fit for your needs? As experts in Private and Public Cloud Solutions, we analyze your unique requirements to craft a tailored master plan and determine the optimal Cloud Strategy for your business. From strategic planning to smooth migration, we guide you every step of the way – delivering a future-proof, scalable infrastructure that meets the highest security standards.",
+      "Eine passende IT-Infrastruktur sorgt für reibungslose Abläufe, schnellere Entscheidungen, effektiven Schutz vor Cyberbedrohungen und die nötige Flexibilität, um auf Marktveränderungen reagieren zu können. Doch was ist der richtige Weg für Ihr Unternehmen: eine klassische On-Premises-Lösung, der Schritt in die Cloud – oder ein hybrider Ansatz? Als erfahrene Experten für Private und Public Cloud analysieren wir Ihre spezifischen Anforderungen und entwickeln eine maßgeschneiderte Cloud-Strategie. Gemeinsam finden wir den besten Weg – ob Private, Public oder Hybrid. Von der strategischen Planung bis zur reibungslosen Migration begleiten wir Sie Schritt für Schritt – und schaffen eine skalierbare, zukunftssichere Infrastruktur nach höchsten Sicherheitsstandards.",
   },
   {
     id: 2,
@@ -26,8 +27,9 @@ const featuresData = [
       </svg>
     ),
     title: "Data & Software Engineering",
+    title2: "Wertvolle Daten. Klare Erkenntnisse. Starke Entscheidungen.",
     paragraph:
-      "Most companies use only 20–30% of their available data, often due to a lack of the right tools and processing strategies. This leaves valuable insights undiscovered, inefficiencies undetected, and costs unnecessarily high—all while losing competitive edge. That’s where ASENO come in. With our Big Data expertise, we extract the most relevant information and visualize it clearly and effectively. From terabytes of data, we filter out the insights that drive your business success. These insights also provide the foundation for efficiently training AI models and maximizing the potential of your data.",
+      "Die meisten Unternehmen nutzen nur 20–30 % ihres verfügbaren Datenpotenzials – oft, weil es an den richtigen Tools oder Strategien zur Datenverarbeitung fehlt. So bleiben wichtige Erkenntnisse verborgen, Ineffizienzen unerkannt und Kosten unnötig hoch – während der Wettbewerb davonzieht. Genau hier kommt ASENO ins Spiel: Mit unserer Big-Data-Expertise filtern wir aus Terabytes an Informationen gezielt die Daten heraus, die für Ihr Business wirklich relevant sind – und visualisieren diese klar und verständlich. Diese Erkenntnisse schaffen nicht nur Transparenz und Effizienz, sondern bilden auch die Grundlage für leistungsfähige KI-Modelle und die volle Ausschöpfung Ihres Datenpotenzials.",
    },
   {
     id: 3,
@@ -41,8 +43,9 @@ const featuresData = [
       </svg>
     ),
     title: "AI & GenAI",
+    title2: "Ihr Turbo zum Wissensvorsprung",
     paragraph:
-      "With ASENO as your trusted partner, leverage cutting-edge AI & GenAI technology to gain a sustainable competitive advantage. We customize and integrate the most advanced Large Language Models (LLMs) to meet your unique business needs, enhancing them with your proprietary data. Our solutions are flexible, available on-premises or in the cloud, and designed to empower your team and customers alike. The result? A powerful, tailored knowledge base that delivers valuable insights, whether through dynamic text generation or interactive conversational agents.",
+      "Mit ASENO als verlässlichem Partner nutzen Sie modernste KI- und GenAI-Technologien, um sich einen nachhaltigen Wettbewerbsvorteil zu sichern. Wir passen fortschrittliche Large Language Models (LLMs) individuell an Ihre Anforderungen an – veredelt mit Ihren unternehmenseigenen Daten. Unsere Lösungen sind flexibel, auf Wunsch in der Cloud oder On-Premises verfügbar, und darauf ausgelegt, sowohl Ihr Team als auch Ihre Kunden zu stärken. Das Ergebnis: eine leistungsfähige, unternehmensspezifische Wissensbasis, die wertvolle Einblicke liefert – ob durch dynamische Textgenerierung oder interaktive, dialogfähige Assistenzsysteme.",
   }
 ];
 export default featuresData;

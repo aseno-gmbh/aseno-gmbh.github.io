@@ -1,4 +1,3 @@
-import ServicesSectionOne from "@/components/Services/ServicesSectionOne";
 import Services from "@/components/Services/Services";
 import ServicePrinciples from "@/components/Services/ServicePrinciples";
 import servicesData from "@/components/Services/ServicesData";
@@ -13,13 +12,14 @@ const ServicesPage = () => {
       /> */}
 
       <ServicePrinciples
-        title={"Our Services"} 
-        paragraph="We guide you through every phase of your IT development – from the initial idea, through prototypes and cost-effective entry solutions, all the way to a fully developed, flexible IT landscape."
+        title={"Unsere IT Schwerpunkte und Leistungen im Überblick"} 
+        paragraph="Wir begleiten Sie in jeder Phase Ihrer IT-Entwicklung – von der ersten Idee über praxistaugliche Prototypen und schlanke Einstiegslösungen bis hin zu einem produktionsreifen, skalierbaren System, das langfristig zukunftsfähig bleibt."
+        //paragraph="Entdecken Sie, wie unsere modularen Lösungen und unser Low-Code-Ansatz Ihre Digitalisierung beschleunigen – effizient, flexibel und exakt auf Ihre Anforderungen zugeschnitten. Als unabhängige Experten für strategische IT-Beratung und Low-Code-Implementierung unterstützen wir Sie dabei, Prozesse zu digitalisieren und Ihre IT zukunftssicher aufzustellen."
         servicePrinciplesData={featuresData}
       />
       <Services 
-        title={"First Free Consultation"} 
-        paragraph="Discover how our modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
+        title={"Sie wollen keine Insellösungen mehr?"} 
+        //paragraph="Lassen Sie uns strukturiert starten."
         servicesData={servicesData} 
       />
       {/* <ServicePrinciples
@@ -27,8 +27,6 @@ const ServicesPage = () => {
         paragraph="Discover how our modular solutions and low-code approach deliver maximum efficiency and adaptability for your business software. As vendor-independent experts in strategic IT consulting and low-code implementation, we help you find the optimal solution."
         servicePrinciplesData={servicePrinciplesData}
       /> */}
-    
-      <ServicesSectionOne />
     </>
   );
 };
