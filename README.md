@@ -17,3 +17,10 @@ npm run dev
 npm run export
 serve out
 ```
+
+```
+# add agent
+<main>
+    <ElevenLabsAgent agentId="agent_0901kdxarq6ve1nad4wh4tka06mc" />
+</main>
+```
