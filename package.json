@@ -11,6 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@elevenlabs/react": "^0.12.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.3",
     "next": "^15.3.1",
