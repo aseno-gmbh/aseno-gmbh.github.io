@@ -7,6 +7,8 @@ import Testimonials from "@/components/Testimonials";
 
 import featuresData from "@/components/Features/featuresData";
 import testimonialData from "@/components/Testimonials/TestimonialsData";
+import ElevenLabsAgent from '@/components/Agent/ElevenLabsAgent';
+
 
 //import { Inter } from "@next/font/google";
 //const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +16,9 @@ import testimonialData from "@/components/Testimonials/TestimonialsData";
 export default function Home() {
   return (
     <>
+    <main>
+      <ElevenLabsAgent agentId="agent_0901kdxarq6ve1nad4wh4tka06mc" />
+    </main>
       <Hero />
       <Features 
         title={"Von der Idee bis zum produktionsreifen System"} 
@@ -34,6 +39,9 @@ export default function Home() {
       <Brands />
       <Pricing />
       <Blog /> */}
+      
+      
+      
     </>
   );
 }
