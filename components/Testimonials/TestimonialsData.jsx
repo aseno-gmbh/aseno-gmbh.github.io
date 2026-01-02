@@ -4,7 +4,7 @@ const testimonialData = [
       name: "BMW – Online-Konfigurator mit internationalem Rollout",
       designation: "München, Automotive",
       content:
-        "Für die BMW AG übernahm ASENO Verantwortung für Konzeption, Spezifikation, Entwicklung, Test und Go-live des BMW-Online-Konfigurators. Die webbasierte Plattform basierte auf moderner Portaltechnologie mit angebundenen Backend-Komponenten (CRM, Autorensystem, Web Analytics). Das System wurde erfolgreich in mehreren Märkten ausgerollt – u. a. auf bmw.de, bmw.nl, bmw.at und bmw.co.uk.",
+        "Für die BMW AG übernahm ASENO die Verantwortung für Konzeption, Spezifikation, Entwicklung, Test und Go-live des BMW-Online-Konfigurators. Die webbasierte Plattform basierte auf moderner Portaltechnologie mit angebundenen Backend-Komponenten (CRM, Autorensystem, Web Analytics). Das System wurde erfolgreich in mehreren Märkten ausgerollt – u. a. auf bmw.de, bmw.nl, bmw.at und bmw.co.uk.",
       // image: "/images/testimonials/auth-01.png",
       // star: 5,
     },
