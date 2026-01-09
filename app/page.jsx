@@ -16,7 +16,9 @@ import ElevenLabsAgent from '@/components/Agent/ElevenLabsAgent';
 export default function Home() {
   return (
     <>
-    
+    <main>
+    <ElevenLabsAgent agentId="agent_0901kdxarq6ve1nad4wh4tka06mc" />
+    </main>
       <Hero />
       <Features 
         title={"Von der Idee bis zum produktionsreifen System"} 
