@@ -1,10 +1,11 @@
-# .github/workflows/build-and-deploy.yml
-
 name: Node.js CI
 
 on:
   push:
     branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,17 +16,27 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          # update the Node version to meet your needs
           node-version: 18
           cache: npm
+
       - name: Build
         run: |
           npm ci
           npm run build
           touch out/.nojekyll
-      - name: Deploy
-        # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: public
-          folder: out
+
+      - name: Deploy to public branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out/ -f
+          git stash
+          git fetch origin public || true
+          git checkout public || git checkout --orphan public
+          git rm -rf . --cached --quiet
+          git checkout stash -- out/
+          cp -r out/. .
+          rm -rf out/
+          git add .
+          git commit -m "deploy: ${{ github.sha }}"
+          git push origin public --force
