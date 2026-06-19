@@ -1,10 +1,14 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+
+export const metadata = {
+  title: "Software & Data Engineering | ASENO Ltd. | Schwaig bei Nürnberg",
+  description: "Developing Software is our passion!",
+  icons: { icon: "/images/favicon.ico" },
+};
 
 export default function RootLayout({ children }) {
   return (
