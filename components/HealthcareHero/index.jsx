@@ -16,13 +16,13 @@ const HealthcareHero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Digitizing Healthcare
+                Digitalisierung im Gesundheitswesen
                 </h1>
                 <p className="mb-8 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                At ASENO, health is our top priority. We firmly believe that innovative IT solutions can create real value — paving the way for better and more sustainable healthcare systems. With advanced expertise in Public and Private Cloud technologies, Big Data, and Artificial Intelligence, we are committed to driving long-term improvements in healthcare for all.
+                Bei ASENO hat Gesundheit höchste Priorität. Wir sind überzeugt, dass innovative IT-Lösungen echten Mehrwert schaffen können – und damit den Weg zu besseren und nachhaltigeren Gesundheitssystemen ebnen. Mit fundierter Expertise in Public und Private Cloud, Big Data und Künstlicher Intelligenz setzen wir uns für nachhaltige Verbesserungen im Gesundheitswesen ein.
                 </p>
                 <p className="mb-0 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                ASENO specializes in healthcare platform development, data interoperability, EHR and EMR integration, and cloud-based enterprise solutions, providing our clients with the tools they need to implement cutting-edge healthcare systems effectively.
+                ASENO ist spezialisiert auf die Entwicklung von Healthcare-Plattformen, Dateninteroperabilität, EHR- und EMR-Integration sowie cloudbasierte Unternehmenslösungen – und stattet unsere Kunden mit den Werkzeugen aus, die sie für die effektive Umsetzung modernster Gesundheitssysteme benötigen.
                 </p>
               </div>
             </div>

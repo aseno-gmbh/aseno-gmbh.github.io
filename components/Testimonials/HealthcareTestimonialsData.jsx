@@ -1,28 +1,28 @@
 const healthcareTestimonialData = [
     {
       id: 1,
-      name: "Curatio @Kansas - Missourie, US",
-      designation: "MyCuratio - PHR Platform",
+      name: "Curatio @Kansas – Missouri, US",
+      designation: "MyCuratio – PHR-Plattform",
       content:
-        "Since 2013, our IT experts has been supporting the development and maintenance of myCuratio, a platform that consolidates health, wellness, and medical data from various sources into a personal health record (PHR). Users can manage their PHR, share it, and access relevant social health communities that connect patients, caregivers, and professionals. Key features include the integration of hospital records, provider search functionality, and anonymous health forums for diagnoses, treatments, and wellness. We handled full-stack development, including front-end, back-end, database management, DevOps, and quality assurance, while implementing global interoperability standards to enable seamless integration with other systems. Our team collaborated closely with clinical staff and management to design specific workflows and features. The platform is continuously maintained and updated by us to meet evolving needs. This makes myCuratio an innovative solution for digital transformation in healthcare.",
+        "Seit 2013 unterstützen unsere IT-Experten die Entwicklung und Wartung von myCuratio – einer Plattform, die Gesundheits-, Wellness- und Medizindaten aus verschiedenen Quellen in einer persönlichen Gesundheitsakte (PHR) zusammenführt. Nutzer können ihre PHR verwalten, teilen und auf relevante soziale Gesundheitscommunities zugreifen, die Patienten, Pflegepersonal und Fachleute verbinden. Zu den Kernfunktionen zählen die Integration von Krankenhausdaten, eine Anbietersuche sowie anonyme Gesundheitsforen zu Diagnosen, Behandlungen und Wellness. Wir übernahmen die vollständige Full-Stack-Entwicklung – Frontend, Backend, Datenbankmanagement, DevOps und Qualitätssicherung –, implementierten globale Interoperabilitätsstandards und arbeiteten eng mit klinischem Personal und Management zusammen. Die Plattform wird von uns kontinuierlich gewartet und weiterentwickelt. myCuratio ist damit eine innovative Lösung für die digitale Transformation im Gesundheitswesen.",
       // image: "/images/testimonials/auth-01.png",
       // star: 5,
     },
     {
       id: 2,
-      name: "Holmusk @New York, US & Singapore",
-      designation: "MindLinc - Behavioural Health EHR System",
+      name: "Holmusk @New York, US & Singapur",
+      designation: "MindLinc – Verhaltensgesundheit EHR-System",
       content:
-        "Our IT company collaborated on the development and modernization of MindLinc, an ONC-ACB-compliant behavioral health EHR system. We executed software development, modernization of legacy systems, and the adoption of FHIR standards for interoperability. Our contributions included integrating modules such as appointment scheduling, therapy and treatment management, telehealth, mood and symptom tracking, and developing APIs and scalable architectures. We revamped the user interface (UI/UX) and conducted extensive testing to ensure seamless functionality. Additionally, we implemented third-party integrations like SmilCDR, DrFirst, and OpenPM. In close collaboration with the client, we developed features like task management, which is now utilized in numerous behavioral healthcare facilities across the US.",
+        "Unser Team war an der Entwicklung und Modernisierung von MindLinc beteiligt – einem ONC-ACB-zertifizierten EHR-System für Verhaltensgesundheit. Wir führten die Softwareentwicklung, die Modernisierung von Altsystemen sowie die Einführung von FHIR-Standards für Interoperabilität durch. Zu unseren Beiträgen zählen die Integration von Modulen wie Terminplanung, Therapie- und Behandlungsmanagement, Telehealth sowie Stimmungs- und Symptomverfolgung, die Entwicklung von APIs und skalierbaren Architekturen sowie die Erneuerung der Benutzeroberfläche (UI/UX). Zusätzlich realisierten wir Drittanbieter-Integrationen wie SmilCDR, DrFirst und OpenPM. In enger Zusammenarbeit mit dem Kunden entwickelten wir Funktionen wie das Aufgabenmanagement, das inzwischen in zahlreichen Einrichtungen für psychische Gesundheit in den USA im Einsatz ist.",
       // image: "/images/testimonials/auth-02.png",
       // star: 5,
     },
     {
       id: 3,
-      name: "AS Software @New Jersey - Kansas, US",
-      designation: "Sonography Reporting Platform",
+      name: "AS Software @New Jersey – Kansas, US",
+      designation: "Sonographie-Befundplattform",
       content:
-        "We partnered with AS Software to modernize their Ultrasound Framework, a cloud-based platform designed to streamline reporting workflows and enhance healthcare efficiency. We upgraded their legacy software, transforming the outdated interface into a modern, user-friendly design while optimizing scalability and performance. Given the lack of detailed software documentation, we meticulously analyzed the system to document its functionalities comprehensively. Our team adopted FHIR standards to enhance interoperability with EHR/EMR systems, integrated a scalable engine for cost optimization, and developed new APIs for seamless communication. An interactive design prototype was created to refine the user experience, ensuring the transition to the updated platform did not disrupt existing workflows. Rigorous testing, including unit, regression, and end-to-end testing, guaranteed reliability. Our step-by-step feature release approach facilitated the deployment of federated settings and other enhancements to over 1,000 healthcare facilities across the U.S., with additional maintenance of their legacy HL7 module.",
+        "Gemeinsam mit AS Software modernisierten wir deren Ultrasound Framework – eine cloudbasierte Plattform zur Optimierung von Befundworkflows im Gesundheitswesen. Wir aktualisierten die veraltete Software, transformierten das überholte Interface in ein modernes, benutzerfreundliches Design und optimierten Skalierbarkeit sowie Performance. Aufgrund fehlender Dokumentation analysierten wir das System sorgfältig und dokumentierten sämtliche Funktionalitäten umfassend. Unser Team führte FHIR-Standards ein, integrierte eine skalierbare Engine zur Kostenoptimierung und entwickelte neue APIs. Durch rigoroses Testen – Unit-, Regressions- und End-to-End-Tests – gewährleisteten wir Zuverlässigkeit. Unser schrittweiser Releaseansatz ermöglichte die Einführung in über 1.000 Gesundheitseinrichtungen in den USA, ergänzt durch die Wartung des bestehenden HL7-Moduls.",
       // image: "/images/testimonials/auth-03.png",
       // star: 5,
     },

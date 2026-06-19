@@ -1,12 +1,20 @@
 import Blog from "@/components/Blog";
 import Features from "@/components/Features";
 
+export const metadata = {
+  title: "Software & Data Engineering | ASENO Ltd. | Schwaig bei Nürnberg",
+  description: "Wir begleiten Unternehmen bei digitalen Entscheidungen, die wirken – Cloud, Low-Code und GenAI mit echtem Business-Fokus.",
+  icons: { icon: "/images/favicon.ico" },
+};
+
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 
 import featuresData from "@/components/Features/featuresData";
 import testimonialData from "@/components/Testimonials/TestimonialsData";
+import ElevenLabsAgent from '@/components/Agent/ElevenLabsAgent';
+
 
 //import { Inter } from "@next/font/google";
 //const inter = Inter({ subsets: ["latin"] });
@@ -14,6 +22,9 @@ import testimonialData from "@/components/Testimonials/TestimonialsData";
 export default function Home() {
   return (
     <>
+    <main>
+    <ElevenLabsAgent agentId="agent_0901kdxarq6ve1nad4wh4tka06mc" />
+    </main>
       <Hero />
       <Features 
         title={"Von der Idee bis zum produktionsreifen System"} 
@@ -34,6 +45,9 @@ export default function Home() {
       <Brands />
       <Pricing />
       <Blog /> */}
+      
+      
+      
     </>
   );
 }

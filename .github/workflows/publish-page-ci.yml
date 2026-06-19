@@ -1,31 +1,63 @@
-# .github/workflows/build-and-deploy.yml
-
 name: Node.js CI
 
 on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  install:
+    name: Abhängigkeiten installieren
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          # update the Node version to meet your needs
           node-version: 18
           cache: npm
+      - run: npm ci
+
+  build:
+    name: Node.js bauen
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 18
+          cache: npm
+      - run: npm ci
       - name: Build
         run: |
-          npm ci
           npm run build
           touch out/.nojekyll
-      - name: Deploy
-        # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: actions/upload-artifact@v5
         with:
-          branch: public
-          folder: out
+          name: build-output
+          path: out/
+
+  publish:
+    name: Publish to public branch
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v5
+        with:
+          name: build-output
+          path: out/
+      - name: Deploy to public branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin public || true
+          git checkout public || git checkout --orphan public
+          git rm -rf . --cached --quiet
+          cp -r out/. .
+          rm -rf out/
+          git add .
+          git commit -m "deploy: ${{ github.sha }}"
+          git push origin public --force
