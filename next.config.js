@@ -18,9 +18,6 @@ const nextConfig = {
 //     loaderFile: './app/image.ts',
 //   },
   images: { unoptimized: true },
-  experimental: {
-    appDir: true,
-  },
   assetPrefix: assetPrefix,
   basePath: basePath,
 };
