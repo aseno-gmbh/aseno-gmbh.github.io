@@ -53,7 +53,7 @@ const teamData = [
     name: "Cedric Djahan",
     title: "DevSecOps Engineer",
     paragraph:
-      "Sicherheit ist kein Nachgedanke, sondern Cedric' Grundprinzip. Mit einem Master in Informatik und ausgewiesener Expertise im DevSecOps-Bereich verbindet er Entwicklung, Betrieb und Sicherheit zu einem nahtlosen Ganzen. Präzise, pragmatisch und stets einen Schritt voraus baut er Pipelines, die nicht nur schnell liefern, sondern von Grund auf abgesichert sind – damit Innovation und Schutz Hand in Hand gehen.",
+      "Sicherheit ist kein Nachgedanke, sondern Cedric's Grundprinzip. Mit einem Master in Informatik und ausgewiesener Expertise im DevSecOps-Bereich verbindet er Entwicklung, Betrieb und Sicherheit zu einem nahtlosen Ganzen. Präzise, pragmatisch und stets einen Schritt voraus baut er Pipelines, die nicht nur schnell liefern, sondern von Grund auf abgesichert sind – damit Innovation und Schutz Hand in Hand gehen.",
   }
 
 ];
