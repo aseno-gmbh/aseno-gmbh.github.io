@@ -37,7 +37,7 @@ const teamData = [
     name: "Bai Xia",
     title: "Director of Banking & Insurance Solutions",
     paragraph:
-      "Kritisch, strukturiert und technisch exzellent – Bai ist unser Spezialist für datengetriebene IT-Lösungen im Finanz- und Versicherungsbereich. Sein Schwerpunkt liegt auf Platform Engineering für Cloud native Container-Plattformen, Microservice- und Event-Sourcing-Architekturen mit Kafka sowie dem Einsatz von AIOps und der Entwicklung von AI-Agenten für den intelligenten IT-Betrieb. Sein fundiertes Know-how in Machine Learning – von statistischen Verfahren bis Deep Learning – bildet dabei die Grundlage für praxistaugliche AI-Lösungen. Mit tiefem Verständnis regulatorischer Anforderungen (z. B. BaFin) und starker technischer Kompetenz entwickelt er Lösungen, die effizient, sicher und zukunftsfähig sind.",
+      "Kritisch, strukturiert und technisch exzellent – Bai verbindet Platform Engineering, moderne Softwarearchitektur und AI zu Lösungen, die im anspruchsvollen Enterprise-Umfeld bestehen. Sein Schwerpunkt liegt auf Cloud-nativen Plattformen inklusive Monitoring und Observability, Microservice- und Event-Sourcing-Architekturen mit Kafka sowie AIOps und der Entwicklung von AI-Agenten. Mit fundiertem Machine-Learning-Know-how, tiefem Verständnis regulatorischer Anforderungen (z. B. BaFin) und starker technischer Kompetenz entwickelt er Lösungen, die effizient, sicher und zukunftsfähig sind.",
   },
   {
     id: 6,
